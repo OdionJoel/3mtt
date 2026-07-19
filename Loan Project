@@ -21,7 +21,7 @@
       "metadata": {
         "id": "lu756WW0csfE"
       },
-      "execution_count": 2,
+      "execution_count": 64,
       "outputs": []
     },
     {
@@ -33,7 +33,7 @@
       "metadata": {
         "id": "6g5AKqk4csWK"
       },
-      "execution_count": 3,
+      "execution_count": 65,
       "outputs": []
     },
     {
@@ -51,37 +51,16 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "_6guq2ZkcsMq",
-        "outputId": "7dfc1c20-6700-4b99-ca42-5d88dba00054"
+        "outputId": "931ec4a2-5ca5-4e52-bbdf-7a77d7289298"
       },
-      "execution_count": 4,
+      "execution_count": 66,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "Downloading to /root/.cache/kagglehub/datasets/ninzaami/loan-predication/1.archive...\n"
-          ]
-        },
-        {
-          "output_type": "stream",
-          "name": "stderr",
-          "text": [
-            "100%|██████████| 7.83k/7.83k [00:00<00:00, 9.39MB/s]"
-          ]
-        },
-        {
-          "output_type": "stream",
-          "name": "stdout",
-          "text": [
-            "Extracting files...\n",
-            "Path to dataset files: /root/.cache/kagglehub/datasets/ninzaami/loan-predication/versions/1\n"
-          ]
-        },
-        {
-          "output_type": "stream",
-          "name": "stderr",
-          "text": [
-            "\n"
+            "Using Colab cache for faster access to the 'loan-predication' dataset.\n",
+            "Path to dataset files: /kaggle/input/loan-predication\n"
           ]
         }
       ]
@@ -98,9 +77,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "x-aLitBwdXhR",
-        "outputId": "64fc6c78-91c8-473e-8c62-264b256c3f17"
+        "outputId": "8555d0b1-fb56-487d-9e3a-836cb59efe2a"
       },
-      "execution_count": 5,
+      "execution_count": 67,
       "outputs": [
         {
           "output_type": "stream",
@@ -126,9 +105,9 @@
           "height": 206
         },
         "id": "AMKWUuzqd4y7",
-        "outputId": "62464927-ea37-48e6-b31f-9bc9db2a2888"
+        "outputId": "f2f724ef-eccb-4b4f-c5bd-2ecb909a6c9a"
       },
-      "execution_count": 6,
+      "execution_count": 68,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -157,7 +136,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-19c24869-23f0-46ae-8e6f-554e073341f3\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-380fe3ed-8777-4bb9-b897-8f2786be306b\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -278,7 +257,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-19c24869-23f0-46ae-8e6f-554e073341f3')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-380fe3ed-8777-4bb9-b897-8f2786be306b')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -330,12 +309,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-19c24869-23f0-46ae-8e6f-554e073341f3 button.colab-df-convert');\n",
+              "        document.querySelector('#df-380fe3ed-8777-4bb9-b897-8f2786be306b button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-19c24869-23f0-46ae-8e6f-554e073341f3');\n",
+              "        const element = document.querySelector('#df-380fe3ed-8777-4bb9-b897-8f2786be306b');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -365,7 +344,7 @@
             }
           },
           "metadata": {},
-          "execution_count": 6
+          "execution_count": 68
         }
       ]
     },
@@ -379,9 +358,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "LykBZwRdd5fp",
-        "outputId": "9c84dbe1-6bbe-46d0-baf6-b4fd38555d84"
+        "outputId": "c5874f14-e793-4653-cdd3-f0e8e171e872"
       },
-      "execution_count": 7,
+      "execution_count": 69,
       "outputs": [
         {
           "output_type": "stream",
@@ -422,9 +401,9 @@
           "height": 300
         },
         "id": "Q5rYArdthei6",
-        "outputId": "fa776744-6d90-4a79-8dee-c235e695eb42"
+        "outputId": "5a9756cf-1c83-4e45-e9b4-24c59b3d7aeb"
       },
-      "execution_count": 8,
+      "execution_count": 70,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -452,7 +431,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-755f2dc8-f2a3-4ef9-9110-2bc0d822f777\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-f333f4ea-2224-40af-9d68-699a1c5c4125\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -549,7 +528,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-755f2dc8-f2a3-4ef9-9110-2bc0d822f777')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-f333f4ea-2224-40af-9d68-699a1c5c4125')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -601,12 +580,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-755f2dc8-f2a3-4ef9-9110-2bc0d822f777 button.colab-df-convert');\n",
+              "        document.querySelector('#df-f333f4ea-2224-40af-9d68-699a1c5c4125 button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-755f2dc8-f2a3-4ef9-9110-2bc0d822f777');\n",
+              "        const element = document.querySelector('#df-f333f4ea-2224-40af-9d68-699a1c5c4125');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -635,7 +614,7 @@
             }
           },
           "metadata": {},
-          "execution_count": 8
+          "execution_count": 70
         }
       ]
     },
@@ -650,9 +629,9 @@
           "height": 175
         },
         "id": "bSC8bjcBh1M-",
-        "outputId": "5b7485e1-d045-48cd-cd3e-e3d14819f53e"
+        "outputId": "00931ba0-844a-4fbf-eee3-74a4b712456e"
       },
-      "execution_count": 9,
+      "execution_count": 71,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -672,7 +651,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-adb4a8a2-578a-403a-afad-2650227296e2\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-cc6b90ed-b5c6-4ba3-a343-02497674ab0e\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -752,7 +731,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-adb4a8a2-578a-403a-afad-2650227296e2')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-cc6b90ed-b5c6-4ba3-a343-02497674ab0e')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -804,12 +783,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-adb4a8a2-578a-403a-afad-2650227296e2 button.colab-df-convert');\n",
+              "        document.querySelector('#df-cc6b90ed-b5c6-4ba3-a343-02497674ab0e button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-adb4a8a2-578a-403a-afad-2650227296e2');\n",
+              "        const element = document.querySelector('#df-cc6b90ed-b5c6-4ba3-a343-02497674ab0e');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -838,7 +817,7 @@
             }
           },
           "metadata": {},
-          "execution_count": 9
+          "execution_count": 71
         }
       ]
     },
@@ -853,9 +832,9 @@
           "height": 492
         },
         "id": "hPojL-i9iRwA",
-        "outputId": "70791d87-0f22-4902-c316-02d74f265832"
+        "outputId": "58eff48c-df07-4ea4-fa23-7abfb9acf902"
       },
-      "execution_count": 10,
+      "execution_count": 72,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -957,7 +936,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 10
+          "execution_count": 72
         }
       ]
     },
@@ -971,9 +950,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "heb3ghuvi4T3",
-        "outputId": "eaa1e367-64a5-4613-9173-028dcfd58414"
+        "outputId": "ab152c1b-1c50-4b56-9e55-4a7caf1fd0e1"
       },
-      "execution_count": 11,
+      "execution_count": 73,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -983,7 +962,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 11
+          "execution_count": 73
         }
       ]
     },
@@ -997,9 +976,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "iiqsvSl9jzFf",
-        "outputId": "3267c3ba-153c-43d0-ce68-cd562e078b39"
+        "outputId": "d4124445-615d-4991-a179-84aadb1e3d3a"
       },
-      "execution_count": 12,
+      "execution_count": 74,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1009,7 +988,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 12
+          "execution_count": 74
         }
       ]
     },
@@ -1052,9 +1031,9 @@
           "height": 1000
         },
         "id": "lVuPhIdulhtr",
-        "outputId": "3079ae7a-235b-44ca-8744-0cf510394d84"
+        "outputId": "f4986b96-8547-4097-8e65-0d8efdd9577f"
       },
-      "execution_count": 13,
+      "execution_count": 75,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1082,9 +1061,9 @@
           "height": 472
         },
         "id": "72ygcuHvxqcK",
-        "outputId": "867eac80-8d99-4b95-eeb3-15b38858b89b"
+        "outputId": "ba77cdc2-fd41-43b2-ceb2-714638fa6c14"
       },
-      "execution_count": 14,
+      "execution_count": 76,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1125,9 +1104,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "1Bd94P3U9avm",
-        "outputId": "4d969b16-e05c-415a-a979-4ea65700047e"
+        "outputId": "52c225c6-f758-43e7-f509-bf40d97ba2d0"
       },
-      "execution_count": 15,
+      "execution_count": 77,
       "outputs": [
         {
           "output_type": "stream",
@@ -1164,9 +1143,9 @@
           "height": 492
         },
         "id": "MSGJ1EIh-E6W",
-        "outputId": "ab47ac51-7da5-46ec-89f1-90efee579ef5"
+        "outputId": "4b360255-ba1c-4db4-8e69-9bd09066e971"
       },
-      "execution_count": 16,
+      "execution_count": 78,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1268,7 +1247,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 16
+          "execution_count": 78
         }
       ]
     },
@@ -1282,9 +1261,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "Tqx-xpv8-GsO",
-        "outputId": "ee397d60-c48a-4714-998f-39416c396fbf"
+        "outputId": "8ea9f3c7-49d8-41c0-febc-d377a2e392c0"
       },
-      "execution_count": 17,
+      "execution_count": 79,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1296,7 +1275,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 17
+          "execution_count": 79
         }
       ]
     },
@@ -1331,9 +1310,9 @@
           "height": 807
         },
         "id": "z_EVcNA6-4ut",
-        "outputId": "fbaf0584-cf4e-4f4d-c163-0336a300bb09"
+        "outputId": "46cf2115-2aae-421d-e8a9-3da2c6929a26"
       },
-      "execution_count": 18,
+      "execution_count": 80,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1370,9 +1349,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "uApwknQJADGo",
-        "outputId": "682dd4e7-2b2c-47e5-91c0-4bea3d88a8f6"
+        "outputId": "aac672a3-22ef-4241-ddd4-dc678bbe180a"
       },
-      "execution_count": 19,
+      "execution_count": 81,
       "outputs": [
         {
           "output_type": "stream",
@@ -1409,9 +1388,9 @@
           "height": 410
         },
         "id": "uAS_1ugLAWaB",
-        "outputId": "db080d52-1781-403b-e8e3-256d75c837ca"
+        "outputId": "8f850aeb-418f-4d55-f0e9-de2718d1b184"
       },
-      "execution_count": 20,
+      "execution_count": 82,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1444,9 +1423,9 @@
           "height": 410
         },
         "id": "ljmPiF6XCEMo",
-        "outputId": "dd7eafc0-87f2-4ad1-d01a-30d468a5b4ef"
+        "outputId": "05c68e17-37c6-41ee-adc0-747429971257"
       },
-      "execution_count": 21,
+      "execution_count": 83,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1481,9 +1460,9 @@
           "height": 410
         },
         "id": "2G72b0zrCOIb",
-        "outputId": "d1679bc5-d6d2-4c1b-edd8-1dde43f41f6f"
+        "outputId": "31f9ca95-005e-4004-e771-5e8962afebf6"
       },
-      "execution_count": 22,
+      "execution_count": 84,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1518,9 +1497,9 @@
           "height": 410
         },
         "id": "f7oNtCE1CRmr",
-        "outputId": "6a16eff5-4e7a-413e-ecd6-204f3869bb11"
+        "outputId": "09473105-9618-4889-bba0-f5d56963f457"
       },
-      "execution_count": 23,
+      "execution_count": 85,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1555,9 +1534,9 @@
           "height": 410
         },
         "id": "RLKIdNP8CWkT",
-        "outputId": "217ad65a-b639-4c14-dc74-685a0063a2a6"
+        "outputId": "777e8b40-6e5c-4119-cd61-2cddb7de899e"
       },
-      "execution_count": 24,
+      "execution_count": 86,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1592,9 +1571,9 @@
           "height": 410
         },
         "id": "nSdxnKn-CeC6",
-        "outputId": "ca7d773a-98f5-4427-e6fe-a6b77c1fe37c"
+        "outputId": "6ad741ac-f406-47b6-a9b3-463ed72bbce5"
       },
-      "execution_count": 25,
+      "execution_count": 87,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1629,9 +1608,9 @@
           "height": 410
         },
         "id": "L2u_laVeCvaY",
-        "outputId": "c7cb009d-9ce7-468e-a709-911655138112"
+        "outputId": "8492837e-345c-4c77-8281-9573122f36c1"
       },
-      "execution_count": 26,
+      "execution_count": 88,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1666,9 +1645,9 @@
           "height": 410
         },
         "id": "uEux3qJOCzfB",
-        "outputId": "4cd731ab-7c84-40c9-b272-dc8a942f0f77"
+        "outputId": "239bdda9-8628-40c4-ad58-f16d516b8ae9"
       },
-      "execution_count": 27,
+      "execution_count": 89,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1703,9 +1682,9 @@
           "height": 410
         },
         "id": "Ac31S-gWC3Z8",
-        "outputId": "86730f6f-e6d1-4e6b-e02d-2f8e463ad0cf"
+        "outputId": "39e12e18-6cde-4b99-e5ed-5f9cd8b3d54d"
       },
-      "execution_count": 28,
+      "execution_count": 90,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1740,9 +1719,9 @@
           "height": 589
         },
         "id": "doOkW512C8Pj",
-        "outputId": "084a031f-b675-4d96-da1c-c860d4d6b5e3"
+        "outputId": "9970cfb8-2788-40e7-b934-7b4c2a73ca59"
       },
-      "execution_count": 29,
+      "execution_count": 91,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1762,7 +1741,7 @@
       "metadata": {
         "id": "_zv_vKFCDCk3"
       },
-      "execution_count": 29,
+      "execution_count": 91,
       "outputs": []
     },
     {
@@ -1788,9 +1767,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "dk64TGRLDpIr",
-        "outputId": "1169b82e-74ef-420b-9131-4b347eb40679"
+        "outputId": "f3c055b3-9a68-4a81-a837-e60c16d3f161"
       },
-      "execution_count": 30,
+      "execution_count": 92,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1802,7 +1781,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 30
+          "execution_count": 92
         }
       ]
     },
@@ -1814,7 +1793,7 @@
       "metadata": {
         "id": "lIgcIau5DrNM"
       },
-      "execution_count": 31,
+      "execution_count": 93,
       "outputs": []
     },
     {
@@ -1838,7 +1817,7 @@
       "metadata": {
         "id": "PoCjo-vsEAwA"
       },
-      "execution_count": 32,
+      "execution_count": 94,
       "outputs": []
     },
     {
@@ -1852,9 +1831,9 @@
           "height": 206
         },
         "id": "Q1QyNPx_Edi0",
-        "outputId": "f0a6af91-6e19-4b72-fa01-a8fd84e59af2"
+        "outputId": "d3d8c989-d6f3-4f7c-fa8c-3512a14f41cb"
       },
-      "execution_count": 33,
+      "execution_count": 95,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1883,7 +1862,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-5706eef3-4e7c-4233-a2b8-92bb68916c91\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-998b35a4-5311-453e-812f-e68447652abf\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -1998,7 +1977,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-5706eef3-4e7c-4233-a2b8-92bb68916c91')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-998b35a4-5311-453e-812f-e68447652abf')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -2050,12 +2029,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-5706eef3-4e7c-4233-a2b8-92bb68916c91 button.colab-df-convert');\n",
+              "        document.querySelector('#df-998b35a4-5311-453e-812f-e68447652abf button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-5706eef3-4e7c-4233-a2b8-92bb68916c91');\n",
+              "        const element = document.querySelector('#df-998b35a4-5311-453e-812f-e68447652abf');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -2085,7 +2064,7 @@
             }
           },
           "metadata": {},
-          "execution_count": 33
+          "execution_count": 95
         }
       ]
     },
@@ -2101,7 +2080,7 @@
       "metadata": {
         "id": "hcoD2FetEgLo"
       },
-      "execution_count": 34,
+      "execution_count": 96,
       "outputs": []
     },
     {
@@ -2115,20 +2094,20 @@
           "height": 206
         },
         "id": "-EAokYDbEoBV",
-        "outputId": "e169f866-f557-4548-892c-8aaaf28d2e13"
+        "outputId": "741f522d-f2db-4c04-8143-756c3876c46c"
       },
-      "execution_count": 37,
+      "execution_count": 97,
       "outputs": [
         {
           "output_type": "execute_result",
           "data": {
             "text/plain": [
-              "   Gender  Married  Dependents  Education  Self_Employed  ApplicantIncome  \\\n",
-              "0       1        0           0          0              0             5849   \n",
-              "1       1        1           1          0              0             4583   \n",
-              "2       1        1           0          0              1             3000   \n",
-              "3       1        1           0          1              0             2583   \n",
-              "4       1        0           0          0              0             6000   \n",
+              "   Gender  Married Dependents  Education  Self_Employed  ApplicantIncome  \\\n",
+              "0       1        0          0          0              0             5849   \n",
+              "1       1        1          1          0              0             4583   \n",
+              "2       1        1          0          0              1             3000   \n",
+              "3       1        1          0          1              0             2583   \n",
+              "4       1        0          0          0              0             6000   \n",
               "\n",
               "   CoapplicantIncome  LoanAmount  Loan_Amount_Term  Credit_History  \\\n",
               "0                0.0  146.412162             360.0             1.0   \n",
@@ -2146,7 +2125,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-7a65d9f8-53e4-43a1-9753-10b061ea93a6\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-d24f57f8-f110-41f4-8ecc-6ff692cab4be\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -2267,7 +2246,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-7a65d9f8-53e4-43a1-9753-10b061ea93a6')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-d24f57f8-f110-41f4-8ecc-6ff692cab4be')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -2319,12 +2298,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-7a65d9f8-53e4-43a1-9753-10b061ea93a6 button.colab-df-convert');\n",
+              "        document.querySelector('#df-d24f57f8-f110-41f4-8ecc-6ff692cab4be button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-7a65d9f8-53e4-43a1-9753-10b061ea93a6');\n",
+              "        const element = document.querySelector('#df-d24f57f8-f110-41f4-8ecc-6ff692cab4be');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -2350,11 +2329,11 @@
             "application/vnd.google.colaboratory.intrinsic+json": {
               "type": "dataframe",
               "variable_name": "df",
-              "summary": "{\n  \"name\": \"df\",\n  \"rows\": 614,\n  \"fields\": [\n    {\n      \"column\": \"Gender\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 0,\n        \"min\": 0,\n        \"max\": 1,\n        \"num_unique_values\": 2,\n        \"samples\": [\n          0,\n          1\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Married\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 0,\n        \"min\": 0,\n        \"max\": 1,\n        \"num_unique_values\": 2,\n        \"samples\": [\n          1,\n          0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Dependents\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 1,\n        \"min\": 0,\n        \"max\": 3,\n        \"num_unique_values\": 4,\n        \"samples\": [\n          1,\n          3\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Education\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 0,\n        \"min\": 0,\n        \"max\": 1,\n        \"num_unique_values\": 2,\n        \"samples\": [\n          1,\n          0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Self_Employed\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 0,\n        \"min\": 0,\n        \"max\": 1,\n        \"num_unique_values\": 2,\n        \"samples\": [\n          1,\n          0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"ApplicantIncome\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 6109,\n        \"min\": 150,\n        \"max\": 81000,\n        \"num_unique_values\": 505,\n        \"samples\": [\n          8333,\n          4342\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"CoapplicantIncome\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 2926.2483692241917,\n        \"min\": 0.0,\n        \"max\": 41667.0,\n        \"num_unique_values\": 287,\n        \"samples\": [\n          1840.0,\n          2042.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"LoanAmount\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 84.0374676831965,\n        \"min\": 9.0,\n        \"max\": 700.0,\n        \"num_unique_values\": 204,\n        \"samples\": [\n          125.0,\n          349.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Loan_Amount_Term\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 64.42862906767301,\n        \"min\": 12.0,\n        \"max\": 480.0,\n        \"num_unique_values\": 10,\n        \"samples\": [\n          84.0,\n          120.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Credit_History\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 0.3523386063583013,\n        \"min\": 0.0,\n        \"max\": 1.0,\n        \"num_unique_values\": 2,\n        \"samples\": [\n          0.0,\n          1.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Loan_Status\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 0,\n        \"min\": 0,\n        \"max\": 1,\n        \"num_unique_values\": 2,\n        \"samples\": [\n          0,\n          1\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Property_Area_Semiurban\",\n      \"properties\": {\n        \"dtype\": \"boolean\",\n        \"num_unique_values\": 2,\n        \"samples\": [\n          true,\n          false\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Property_Area_Urban\",\n      \"properties\": {\n        \"dtype\": \"boolean\",\n        \"num_unique_values\": 2,\n        \"samples\": [\n          false,\n          true\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    }\n  ]\n}"
+              "summary": "{\n  \"name\": \"df\",\n  \"rows\": 614,\n  \"fields\": [\n    {\n      \"column\": \"Gender\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 0,\n        \"min\": 0,\n        \"max\": 1,\n        \"num_unique_values\": 2,\n        \"samples\": [\n          0,\n          1\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Married\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 0,\n        \"min\": 0,\n        \"max\": 1,\n        \"num_unique_values\": 2,\n        \"samples\": [\n          1,\n          0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Dependents\",\n      \"properties\": {\n        \"dtype\": \"category\",\n        \"num_unique_values\": 4,\n        \"samples\": [\n          \"1\",\n          \"3+\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Education\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 0,\n        \"min\": 0,\n        \"max\": 1,\n        \"num_unique_values\": 2,\n        \"samples\": [\n          1,\n          0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Self_Employed\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 0,\n        \"min\": 0,\n        \"max\": 1,\n        \"num_unique_values\": 2,\n        \"samples\": [\n          1,\n          0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"ApplicantIncome\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 6109,\n        \"min\": 150,\n        \"max\": 81000,\n        \"num_unique_values\": 505,\n        \"samples\": [\n          8333,\n          4342\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"CoapplicantIncome\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 2926.2483692241917,\n        \"min\": 0.0,\n        \"max\": 41667.0,\n        \"num_unique_values\": 287,\n        \"samples\": [\n          1840.0,\n          2042.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"LoanAmount\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 84.0374676831965,\n        \"min\": 9.0,\n        \"max\": 700.0,\n        \"num_unique_values\": 204,\n        \"samples\": [\n          125.0,\n          349.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Loan_Amount_Term\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 64.42862906767301,\n        \"min\": 12.0,\n        \"max\": 480.0,\n        \"num_unique_values\": 10,\n        \"samples\": [\n          84.0,\n          120.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Credit_History\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 0.3523386063583013,\n        \"min\": 0.0,\n        \"max\": 1.0,\n        \"num_unique_values\": 2,\n        \"samples\": [\n          0.0,\n          1.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Loan_Status\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 0,\n        \"min\": 0,\n        \"max\": 1,\n        \"num_unique_values\": 2,\n        \"samples\": [\n          0,\n          1\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Property_Area_Semiurban\",\n      \"properties\": {\n        \"dtype\": \"boolean\",\n        \"num_unique_values\": 2,\n        \"samples\": [\n          true,\n          false\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Property_Area_Urban\",\n      \"properties\": {\n        \"dtype\": \"boolean\",\n        \"num_unique_values\": 2,\n        \"samples\": [\n          false,\n          true\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    }\n  ]\n}"
             }
           },
           "metadata": {},
-          "execution_count": 37
+          "execution_count": 97
         }
       ]
     },
@@ -2371,7 +2350,7 @@
       "metadata": {
         "id": "R9wBzByjEqPm"
       },
-      "execution_count": 36,
+      "execution_count": 98,
       "outputs": []
     },
     {
@@ -2385,9 +2364,9 @@
           "height": 206
         },
         "id": "POG9C_XxvbiT",
-        "outputId": "7f8ef065-b09e-481c-ea25-b60069cbf45a"
+        "outputId": "8ac29642-407d-4404-c72a-a0614982bb33"
       },
-      "execution_count": 38,
+      "execution_count": 99,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -2416,7 +2395,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-f6e93b78-4c8c-44cf-a6c8-b541057d6cd4\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-bcb4db7f-13f9-4352-8de4-3e2b9dce339f\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -2537,7 +2516,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-f6e93b78-4c8c-44cf-a6c8-b541057d6cd4')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-bcb4db7f-13f9-4352-8de4-3e2b9dce339f')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -2589,12 +2568,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-f6e93b78-4c8c-44cf-a6c8-b541057d6cd4 button.colab-df-convert');\n",
+              "        document.querySelector('#df-bcb4db7f-13f9-4352-8de4-3e2b9dce339f button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-f6e93b78-4c8c-44cf-a6c8-b541057d6cd4');\n",
+              "        const element = document.querySelector('#df-bcb4db7f-13f9-4352-8de4-3e2b9dce339f');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -2624,7 +2603,7 @@
             }
           },
           "metadata": {},
-          "execution_count": 38
+          "execution_count": 99
         }
       ]
     },
@@ -2653,7 +2632,7 @@
       "metadata": {
         "id": "MCy6oZmP8GIp"
       },
-      "execution_count": 39,
+      "execution_count": 100,
       "outputs": []
     },
     {
@@ -2667,9 +2646,9 @@
           "height": 226
         },
         "id": "9esHYXGN8Uo3",
-        "outputId": "0b7db922-0da9-4513-82ea-12c92ffb9a16"
+        "outputId": "44562f1a-456d-4b40-87b0-e8723b084e90"
       },
-      "execution_count": 40,
+      "execution_count": 101,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -2705,7 +2684,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-6a18316e-156d-47a1-9ab1-c09405a9fe59\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-3f0d4222-f781-4461-b2c8-c17d66b38390\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -2838,7 +2817,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-6a18316e-156d-47a1-9ab1-c09405a9fe59')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-3f0d4222-f781-4461-b2c8-c17d66b38390')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -2890,12 +2869,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-6a18316e-156d-47a1-9ab1-c09405a9fe59 button.colab-df-convert');\n",
+              "        document.querySelector('#df-3f0d4222-f781-4461-b2c8-c17d66b38390 button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-6a18316e-156d-47a1-9ab1-c09405a9fe59');\n",
+              "        const element = document.querySelector('#df-3f0d4222-f781-4461-b2c8-c17d66b38390');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -2925,7 +2904,7 @@
             }
           },
           "metadata": {},
-          "execution_count": 40
+          "execution_count": 101
         }
       ]
     },
@@ -2939,9 +2918,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "YtKaC2cV8WHX",
-        "outputId": "d52f352a-f807-41b1-82bb-cd3afcb21ae0"
+        "outputId": "bf36f258-6eeb-40ca-e294-0c41fdd276a2"
       },
-      "execution_count": 41,
+      "execution_count": 102,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -2956,7 +2935,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 41
+          "execution_count": 102
         }
       ]
     },
@@ -2970,7 +2949,7 @@
       "metadata": {
         "id": "7FGcbJdq8fFO"
       },
-      "execution_count": 42,
+      "execution_count": 103,
       "outputs": []
     },
     {
@@ -2990,7 +2969,7 @@
       "metadata": {
         "id": "h6qNY-Tg-wko"
       },
-      "execution_count": 43,
+      "execution_count": 104,
       "outputs": []
     },
     {
@@ -3006,7 +2985,7 @@
       "metadata": {
         "id": "RYybX3E7_Rem"
       },
-      "execution_count": 44,
+      "execution_count": 105,
       "outputs": []
     },
     {
@@ -3022,9 +3001,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "rduk21Bu_g19",
-        "outputId": "645be180-2fa2-407b-c828-6296f0a65c34"
+        "outputId": "54f8ed40-cef3-4ced-f1b3-5a4f881de762"
       },
-      "execution_count": 45,
+      "execution_count": 106,
       "outputs": [
         {
           "output_type": "stream",
@@ -3037,6 +3016,32 @@
           ]
         }
       ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Standardization"
+      ],
+      "metadata": {
+        "id": "1inP9QGNGCwN"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from sklearn.preprocessing import StandardScaler\n",
+        "\n",
+        "scaler = StandardScaler()\n",
+        "\n",
+        "X_train = scaler.fit_transform(X_train)\n",
+        "\n",
+        "X_test = scaler.transform(X_test)"
+      ],
+      "metadata": {
+        "id": "hMd23HXdGCOC"
+      },
+      "execution_count": 107,
+      "outputs": []
     },
     {
       "cell_type": "markdown",
@@ -3055,7 +3060,7 @@
       "metadata": {
         "id": "1Fm7ZnZ5_iKJ"
       },
-      "execution_count": 46,
+      "execution_count": 108,
       "outputs": []
     },
     {
@@ -3066,7 +3071,7 @@
       "metadata": {
         "id": "76xh-BtWApR9"
       },
-      "execution_count": 47,
+      "execution_count": 109,
       "outputs": []
     },
     {
@@ -3075,29 +3080,15 @@
         "model.fit(X_train, y_train)"
       ],
       "metadata": {
-        "id": "4LmFTZ2MAsD6",
-        "outputId": "c5264a87-99d5-42cd-c75e-fc03dab30d33",
         "colab": {
           "base_uri": "https://localhost:8080/",
-          "height": 219
-        }
-      },
-      "execution_count": 48,
-      "outputs": [
-        {
-          "output_type": "stream",
-          "name": "stderr",
-          "text": [
-            "/usr/local/lib/python3.12/dist-packages/sklearn/linear_model/_logistic.py:465: ConvergenceWarning: lbfgs failed to converge (status=1):\n",
-            "STOP: TOTAL NO. OF ITERATIONS REACHED LIMIT.\n",
-            "\n",
-            "Increase the number of iterations (max_iter) or scale the data as shown in:\n",
-            "    https://scikit-learn.org/stable/modules/preprocessing.html\n",
-            "Please also refer to the documentation for alternative solver options:\n",
-            "    https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression\n",
-            "  n_iter_i = _check_optimize_result(\n"
-          ]
+          "height": 80
         },
+        "id": "4LmFTZ2MAsD6",
+        "outputId": "cf23509e-2e62-43bc-8294-75db6317e7f2"
+      },
+      "execution_count": 110,
+      "outputs": [
         {
           "output_type": "execute_result",
           "data": {
@@ -3105,7 +3096,7 @@
               "LogisticRegression(max_iter=1000)"
             ],
             "text/html": [
-              "<style>#sk-container-id-1 {\n",
+              "<style>#sk-container-id-2 {\n",
               "  /* Definition of color scheme common for light and dark mode */\n",
               "  --sklearn-color-text: #000;\n",
               "  --sklearn-color-text-muted: #666;\n",
@@ -3136,15 +3127,15 @@
               "  }\n",
               "}\n",
               "\n",
-              "#sk-container-id-1 {\n",
+              "#sk-container-id-2 {\n",
               "  color: var(--sklearn-color-text);\n",
               "}\n",
               "\n",
-              "#sk-container-id-1 pre {\n",
+              "#sk-container-id-2 pre {\n",
               "  padding: 0;\n",
               "}\n",
               "\n",
-              "#sk-container-id-1 input.sk-hidden--visually {\n",
+              "#sk-container-id-2 input.sk-hidden--visually {\n",
               "  border: 0;\n",
               "  clip: rect(1px 1px 1px 1px);\n",
               "  clip: rect(1px, 1px, 1px, 1px);\n",
@@ -3156,7 +3147,7 @@
               "  width: 1px;\n",
               "}\n",
               "\n",
-              "#sk-container-id-1 div.sk-dashed-wrapped {\n",
+              "#sk-container-id-2 div.sk-dashed-wrapped {\n",
               "  border: 1px dashed var(--sklearn-color-line);\n",
               "  margin: 0 0.4em 0.5em 0.4em;\n",
               "  box-sizing: border-box;\n",
@@ -3164,7 +3155,7 @@
               "  background-color: var(--sklearn-color-background);\n",
               "}\n",
               "\n",
-              "#sk-container-id-1 div.sk-container {\n",
+              "#sk-container-id-2 div.sk-container {\n",
               "  /* jupyter's `normalize.less` sets `[hidden] { display: none; }`\n",
               "     but bootstrap.min.css set `[hidden] { display: none !important; }`\n",
               "     so we also need the `!important` here to be able to override the\n",
@@ -3174,7 +3165,7 @@
               "  position: relative;\n",
               "}\n",
               "\n",
-              "#sk-container-id-1 div.sk-text-repr-fallback {\n",
+              "#sk-container-id-2 div.sk-text-repr-fallback {\n",
               "  display: none;\n",
               "}\n",
               "\n",
@@ -3190,14 +3181,14 @@
               "\n",
               "/* Parallel-specific style estimator block */\n",
               "\n",
-              "#sk-container-id-1 div.sk-parallel-item::after {\n",
+              "#sk-container-id-2 div.sk-parallel-item::after {\n",
               "  content: \"\";\n",
               "  width: 100%;\n",
               "  border-bottom: 2px solid var(--sklearn-color-text-on-default-background);\n",
               "  flex-grow: 1;\n",
               "}\n",
               "\n",
-              "#sk-container-id-1 div.sk-parallel {\n",
+              "#sk-container-id-2 div.sk-parallel {\n",
               "  display: flex;\n",
               "  align-items: stretch;\n",
               "  justify-content: center;\n",
@@ -3205,28 +3196,28 @@
               "  position: relative;\n",
               "}\n",
               "\n",
-              "#sk-container-id-1 div.sk-parallel-item {\n",
+              "#sk-container-id-2 div.sk-parallel-item {\n",
               "  display: flex;\n",
               "  flex-direction: column;\n",
               "}\n",
               "\n",
-              "#sk-container-id-1 div.sk-parallel-item:first-child::after {\n",
+              "#sk-container-id-2 div.sk-parallel-item:first-child::after {\n",
               "  align-self: flex-end;\n",
               "  width: 50%;\n",
               "}\n",
               "\n",
-              "#sk-container-id-1 div.sk-parallel-item:last-child::after {\n",
+              "#sk-container-id-2 div.sk-parallel-item:last-child::after {\n",
               "  align-self: flex-start;\n",
               "  width: 50%;\n",
               "}\n",
               "\n",
-              "#sk-container-id-1 div.sk-parallel-item:only-child::after {\n",
+              "#sk-container-id-2 div.sk-parallel-item:only-child::after {\n",
               "  width: 0;\n",
               "}\n",
               "\n",
               "/* Serial-specific style estimator block */\n",
               "\n",
-              "#sk-container-id-1 div.sk-serial {\n",
+              "#sk-container-id-2 div.sk-serial {\n",
               "  display: flex;\n",
               "  flex-direction: column;\n",
               "  align-items: center;\n",
@@ -3244,14 +3235,14 @@
               "\n",
               "/* Pipeline and ColumnTransformer style (default) */\n",
               "\n",
-              "#sk-container-id-1 div.sk-toggleable {\n",
+              "#sk-container-id-2 div.sk-toggleable {\n",
               "  /* Default theme specific background. It is overwritten whether we have a\n",
               "  specific estimator or a Pipeline/ColumnTransformer */\n",
               "  background-color: var(--sklearn-color-background);\n",
               "}\n",
               "\n",
               "/* Toggleable label */\n",
-              "#sk-container-id-1 label.sk-toggleable__label {\n",
+              "#sk-container-id-2 label.sk-toggleable__label {\n",
               "  cursor: pointer;\n",
               "  display: flex;\n",
               "  width: 100%;\n",
@@ -3264,13 +3255,13 @@
               "  gap: 0.5em;\n",
               "}\n",
               "\n",
-              "#sk-container-id-1 label.sk-toggleable__label .caption {\n",
+              "#sk-container-id-2 label.sk-toggleable__label .caption {\n",
               "  font-size: 0.6rem;\n",
               "  font-weight: lighter;\n",
               "  color: var(--sklearn-color-text-muted);\n",
               "}\n",
               "\n",
-              "#sk-container-id-1 label.sk-toggleable__label-arrow:before {\n",
+              "#sk-container-id-2 label.sk-toggleable__label-arrow:before {\n",
               "  /* Arrow on the left of the label */\n",
               "  content: \"▸\";\n",
               "  float: left;\n",
@@ -3278,13 +3269,13 @@
               "  color: var(--sklearn-color-icon);\n",
               "}\n",
               "\n",
-              "#sk-container-id-1 label.sk-toggleable__label-arrow:hover:before {\n",
+              "#sk-container-id-2 label.sk-toggleable__label-arrow:hover:before {\n",
               "  color: var(--sklearn-color-text);\n",
               "}\n",
               "\n",
               "/* Toggleable content - dropdown */\n",
               "\n",
-              "#sk-container-id-1 div.sk-toggleable__content {\n",
+              "#sk-container-id-2 div.sk-toggleable__content {\n",
               "  max-height: 0;\n",
               "  max-width: 0;\n",
               "  overflow: hidden;\n",
@@ -3293,12 +3284,12 @@
               "  background-color: var(--sklearn-color-unfitted-level-0);\n",
               "}\n",
               "\n",
-              "#sk-container-id-1 div.sk-toggleable__content.fitted {\n",
+              "#sk-container-id-2 div.sk-toggleable__content.fitted {\n",
               "  /* fitted */\n",
               "  background-color: var(--sklearn-color-fitted-level-0);\n",
               "}\n",
               "\n",
-              "#sk-container-id-1 div.sk-toggleable__content pre {\n",
+              "#sk-container-id-2 div.sk-toggleable__content pre {\n",
               "  margin: 0.2em;\n",
               "  border-radius: 0.25em;\n",
               "  color: var(--sklearn-color-text);\n",
@@ -3306,79 +3297,79 @@
               "  background-color: var(--sklearn-color-unfitted-level-0);\n",
               "}\n",
               "\n",
-              "#sk-container-id-1 div.sk-toggleable__content.fitted pre {\n",
+              "#sk-container-id-2 div.sk-toggleable__content.fitted pre {\n",
               "  /* unfitted */\n",
               "  background-color: var(--sklearn-color-fitted-level-0);\n",
               "}\n",
               "\n",
-              "#sk-container-id-1 input.sk-toggleable__control:checked~div.sk-toggleable__content {\n",
+              "#sk-container-id-2 input.sk-toggleable__control:checked~div.sk-toggleable__content {\n",
               "  /* Expand drop-down */\n",
               "  max-height: 200px;\n",
               "  max-width: 100%;\n",
               "  overflow: auto;\n",
               "}\n",
               "\n",
-              "#sk-container-id-1 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {\n",
+              "#sk-container-id-2 input.sk-toggleable__control:checked~label.sk-toggleable__label-arrow:before {\n",
               "  content: \"▾\";\n",
               "}\n",
               "\n",
               "/* Pipeline/ColumnTransformer-specific style */\n",
               "\n",
-              "#sk-container-id-1 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {\n",
+              "#sk-container-id-2 div.sk-label input.sk-toggleable__control:checked~label.sk-toggleable__label {\n",
               "  color: var(--sklearn-color-text);\n",
               "  background-color: var(--sklearn-color-unfitted-level-2);\n",
               "}\n",
               "\n",
-              "#sk-container-id-1 div.sk-label.fitted input.sk-toggleable__control:checked~label.sk-toggleable__label {\n",
+              "#sk-container-id-2 div.sk-label.fitted input.sk-toggleable__control:checked~label.sk-toggleable__label {\n",
               "  background-color: var(--sklearn-color-fitted-level-2);\n",
               "}\n",
               "\n",
               "/* Estimator-specific style */\n",
               "\n",
               "/* Colorize estimator box */\n",
-              "#sk-container-id-1 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {\n",
+              "#sk-container-id-2 div.sk-estimator input.sk-toggleable__control:checked~label.sk-toggleable__label {\n",
               "  /* unfitted */\n",
               "  background-color: var(--sklearn-color-unfitted-level-2);\n",
               "}\n",
               "\n",
-              "#sk-container-id-1 div.sk-estimator.fitted input.sk-toggleable__control:checked~label.sk-toggleable__label {\n",
+              "#sk-container-id-2 div.sk-estimator.fitted input.sk-toggleable__control:checked~label.sk-toggleable__label {\n",
               "  /* fitted */\n",
               "  background-color: var(--sklearn-color-fitted-level-2);\n",
               "}\n",
               "\n",
-              "#sk-container-id-1 div.sk-label label.sk-toggleable__label,\n",
-              "#sk-container-id-1 div.sk-label label {\n",
+              "#sk-container-id-2 div.sk-label label.sk-toggleable__label,\n",
+              "#sk-container-id-2 div.sk-label label {\n",
               "  /* The background is the default theme color */\n",
               "  color: var(--sklearn-color-text-on-default-background);\n",
               "}\n",
               "\n",
               "/* On hover, darken the color of the background */\n",
-              "#sk-container-id-1 div.sk-label:hover label.sk-toggleable__label {\n",
+              "#sk-container-id-2 div.sk-label:hover label.sk-toggleable__label {\n",
               "  color: var(--sklearn-color-text);\n",
               "  background-color: var(--sklearn-color-unfitted-level-2);\n",
               "}\n",
               "\n",
               "/* Label box, darken color on hover, fitted */\n",
-              "#sk-container-id-1 div.sk-label.fitted:hover label.sk-toggleable__label.fitted {\n",
+              "#sk-container-id-2 div.sk-label.fitted:hover label.sk-toggleable__label.fitted {\n",
               "  color: var(--sklearn-color-text);\n",
               "  background-color: var(--sklearn-color-fitted-level-2);\n",
               "}\n",
               "\n",
               "/* Estimator label */\n",
               "\n",
-              "#sk-container-id-1 div.sk-label label {\n",
+              "#sk-container-id-2 div.sk-label label {\n",
               "  font-family: monospace;\n",
               "  font-weight: bold;\n",
               "  display: inline-block;\n",
               "  line-height: 1.2em;\n",
               "}\n",
               "\n",
-              "#sk-container-id-1 div.sk-label-container {\n",
+              "#sk-container-id-2 div.sk-label-container {\n",
               "  text-align: center;\n",
               "}\n",
               "\n",
               "/* Estimator-specific */\n",
-              "#sk-container-id-1 div.sk-estimator {\n",
+              "#sk-container-id-2 div.sk-estimator {\n",
               "  font-family: monospace;\n",
               "  border: 1px dotted var(--sklearn-color-border-box);\n",
               "  border-radius: 0.25em;\n",
@@ -3388,18 +3379,18 @@
               "  background-color: var(--sklearn-color-unfitted-level-0);\n",
               "}\n",
               "\n",
-              "#sk-container-id-1 div.sk-estimator.fitted {\n",
+              "#sk-container-id-2 div.sk-estimator.fitted {\n",
               "  /* fitted */\n",
               "  background-color: var(--sklearn-color-fitted-level-0);\n",
               "}\n",
               "\n",
               "/* on hover */\n",
-              "#sk-container-id-1 div.sk-estimator:hover {\n",
+              "#sk-container-id-2 div.sk-estimator:hover {\n",
               "  /* unfitted */\n",
               "  background-color: var(--sklearn-color-unfitted-level-2);\n",
               "}\n",
               "\n",
-              "#sk-container-id-1 div.sk-estimator.fitted:hover {\n",
+              "#sk-container-id-2 div.sk-estimator.fitted:hover {\n",
               "  /* fitted */\n",
               "  background-color: var(--sklearn-color-fitted-level-2);\n",
               "}\n",
@@ -3487,7 +3478,7 @@
               "\n",
               "/* \"?\"-specific style due to the `<a>` HTML tag */\n",
               "\n",
-              "#sk-container-id-1 a.estimator_doc_link {\n",
+              "#sk-container-id-2 a.estimator_doc_link {\n",
               "  float: right;\n",
               "  font-size: 1rem;\n",
               "  line-height: 1em;\n",
@@ -3502,29 +3493,29 @@
               "  border: var(--sklearn-color-unfitted-level-1) 1pt solid;\n",
               "}\n",
               "\n",
-              "#sk-container-id-1 a.estimator_doc_link.fitted {\n",
+              "#sk-container-id-2 a.estimator_doc_link.fitted {\n",
               "  /* fitted */\n",
               "  border: var(--sklearn-color-fitted-level-1) 1pt solid;\n",
               "  color: var(--sklearn-color-fitted-level-1);\n",
               "}\n",
               "\n",
               "/* On hover */\n",
-              "#sk-container-id-1 a.estimator_doc_link:hover {\n",
+              "#sk-container-id-2 a.estimator_doc_link:hover {\n",
               "  /* unfitted */\n",
               "  background-color: var(--sklearn-color-unfitted-level-3);\n",
               "  color: var(--sklearn-color-background);\n",
               "  text-decoration: none;\n",
               "}\n",
               "\n",
-              "#sk-container-id-1 a.estimator_doc_link.fitted:hover {\n",
+              "#sk-container-id-2 a.estimator_doc_link.fitted:hover {\n",
               "  /* fitted */\n",
               "  background-color: var(--sklearn-color-fitted-level-3);\n",
               "}\n",
-              "</style><div id=\"sk-container-id-1\" class=\"sk-top-container\"><div class=\"sk-text-repr-fallback\"><pre>LogisticRegression(max_iter=1000)</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class=\"sk-container\" hidden><div class=\"sk-item\"><div class=\"sk-estimator fitted sk-toggleable\"><input class=\"sk-toggleable__control sk-hidden--visually\" id=\"sk-estimator-id-1\" type=\"checkbox\" checked><label for=\"sk-estimator-id-1\" class=\"sk-toggleable__label fitted sk-toggleable__label-arrow\"><div><div>LogisticRegression</div></div><div><a class=\"sk-estimator-doc-link fitted\" rel=\"noreferrer\" target=\"_blank\" href=\"https://scikit-learn.org/1.6/modules/generated/sklearn.linear_model.LogisticRegression.html\">?<span>Documentation for LogisticRegression</span></a><span class=\"sk-estimator-doc-link fitted\">i<span>Fitted</span></span></div></label><div class=\"sk-toggleable__content fitted\"><pre>LogisticRegression(max_iter=1000)</pre></div> </div></div></div></div>"
+              "</style><div id=\"sk-container-id-2\" class=\"sk-top-container\"><div class=\"sk-text-repr-fallback\"><pre>LogisticRegression(max_iter=1000)</pre><b>In a Jupyter environment, please rerun this cell to show the HTML representation or trust the notebook. <br />On GitHub, the HTML representation is unable to render, please try loading this page with nbviewer.org.</b></div><div class=\"sk-container\" hidden><div class=\"sk-item\"><div class=\"sk-estimator fitted sk-toggleable\"><input class=\"sk-toggleable__control sk-hidden--visually\" id=\"sk-estimator-id-2\" type=\"checkbox\" checked><label for=\"sk-estimator-id-2\" class=\"sk-toggleable__label fitted sk-toggleable__label-arrow\"><div><div>LogisticRegression</div></div><div><a class=\"sk-estimator-doc-link fitted\" rel=\"noreferrer\" target=\"_blank\" href=\"https://scikit-learn.org/1.6/modules/generated/sklearn.linear_model.LogisticRegression.html\">?<span>Documentation for LogisticRegression</span></a><span class=\"sk-estimator-doc-link fitted\">i<span>Fitted</span></span></div></label><div class=\"sk-toggleable__content fitted\"><pre>LogisticRegression(max_iter=1000)</pre></div> </div></div></div></div>"
             ]
           },
           "metadata": {},
-          "execution_count": 48
+          "execution_count": 110
         }
       ]
     },
@@ -3536,7 +3527,7 @@
       "metadata": {
         "id": "O3gDzahXA1C1"
       },
-      "execution_count": 49,
+      "execution_count": 111,
       "outputs": []
     },
     {
@@ -3545,13 +3536,13 @@
         "predictions"
       ],
       "metadata": {
-        "id": "pkNgXUBUA-gI",
-        "outputId": "c3dcf096-c8f9-4550-92e6-e5c6936fbe55",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "pkNgXUBUA-gI",
+        "outputId": "75269975-0b6e-47fe-fd38-be9fe21a72f9"
       },
-      "execution_count": 50,
+      "execution_count": 112,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -3562,11 +3553,11 @@
               "       1, 1, 1, 0, 0, 0, 1, 1, 0, 1, 1, 1, 1, 1, 0, 1, 0, 1, 0, 1, 1, 1,\n",
               "       1, 1, 1, 1, 0, 1, 1, 1, 0, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 0,\n",
               "       1, 1, 1, 0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 1, 0, 1, 1,\n",
-              "       1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1])"
+              "       1, 0, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0])"
             ]
           },
           "metadata": {},
-          "execution_count": 50
+          "execution_count": 112
         }
       ]
     },
@@ -3581,14 +3572,14 @@
         "comparison.head(10)"
       ],
       "metadata": {
-        "id": "9vDpEOg0BCPS",
-        "outputId": "25e7a78a-5e3f-463c-df80-2ef8fd80f753",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 363
-        }
+        },
+        "id": "9vDpEOg0BCPS",
+        "outputId": "42c143eb-28ca-42ae-954f-c7ef8e53ffe4"
       },
-      "execution_count": 51,
+      "execution_count": 113,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -3608,7 +3599,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-0eac90bd-0213-4465-8b65-207234b661e0\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-76b95b52-683c-432d-8fad-d388a6531c37\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -3688,7 +3679,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-0eac90bd-0213-4465-8b65-207234b661e0')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-76b95b52-683c-432d-8fad-d388a6531c37')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -3740,12 +3731,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-0eac90bd-0213-4465-8b65-207234b661e0 button.colab-df-convert');\n",
+              "        document.querySelector('#df-76b95b52-683c-432d-8fad-d388a6531c37 button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-0eac90bd-0213-4465-8b65-207234b661e0');\n",
+              "        const element = document.querySelector('#df-76b95b52-683c-432d-8fad-d388a6531c37');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -3775,7 +3766,7 @@
             }
           },
           "metadata": {},
-          "execution_count": 51
+          "execution_count": 113
         }
       ]
     },
@@ -3798,19 +3789,19 @@
         "print(accuracy)"
       ],
       "metadata": {
-        "id": "IT_K3Jy3BHu5",
-        "outputId": "4ad9ba63-7f1b-4985-f989-df2d46093f53",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "IT_K3Jy3BHu5",
+        "outputId": "4c9bd76f-ee56-4714-c9e8-ff5abda8c8c2"
       },
-      "execution_count": 52,
+      "execution_count": 114,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "0.7886178861788617\n"
+            "0.7804878048780488\n"
           ]
         }
       ]
@@ -3825,20 +3816,20 @@
         "print(cm)"
       ],
       "metadata": {
-        "id": "TcsTdY9vBlq-",
-        "outputId": "ed3f0e69-3d65-43d6-ac6d-17009a7e91fb",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "TcsTdY9vBlq-",
+        "outputId": "5cd19376-471f-478d-96b9-3e6fc18b65f2"
       },
-      "execution_count": 53,
+      "execution_count": 115,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
             "[[18 25]\n",
-            " [ 1 79]]\n"
+            " [ 2 78]]\n"
           ]
         }
       ]
@@ -3850,7 +3841,7 @@
         "|            | Predicted No | Predicted Yes |\n",
         "| ---------- | -----------: | ------------: |\n",
         "| Actual No  |           18  |            25 |\n",
-        "| Actual Yes |            1 |            79 |\n"
+        "| Actual Yes |            2 |            78 |\n"
       ],
       "metadata": {
         "id": "3gqKfuwfB1iC"
@@ -3870,19 +3861,19 @@
         "print(precision)"
       ],
       "metadata": {
-        "id": "qJDsJjHkBqwC",
-        "outputId": "ff748956-d85b-4bdf-ae3e-adbd16940e6d",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "qJDsJjHkBqwC",
+        "outputId": "a963a13a-bf5e-43bc-8877-512f756d29e0"
       },
-      "execution_count": 57,
+      "execution_count": 116,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "0.7596153846153846\n"
+            "0.7572815533980582\n"
           ]
         }
       ]
@@ -3901,19 +3892,19 @@
         "print(recall)"
       ],
       "metadata": {
-        "id": "UrSbmfL4Ch0m",
-        "outputId": "275ea32f-d6bf-4b24-f48b-745414f032ab",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "UrSbmfL4Ch0m",
+        "outputId": "69989d47-98c3-48ab-8eae-645e1f320377"
       },
-      "execution_count": 58,
+      "execution_count": 117,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "0.9875\n"
+            "0.975\n"
           ]
         }
       ]
@@ -3932,19 +3923,19 @@
         "print(f1)"
       ],
       "metadata": {
-        "id": "s5BRtRxqDjnR",
-        "outputId": "cc3d0d09-4231-4bd7-e044-627842d7edb5",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "s5BRtRxqDjnR",
+        "outputId": "3bf767ef-9cf7-4b03-9b11-10907871c287"
       },
-      "execution_count": 60,
+      "execution_count": 118,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "0.8586956521739131\n"
+            "0.8524590163934426\n"
           ]
         }
       ]
@@ -3977,22 +3968,22 @@
         "print(\"F1 Score :\", f1_score(y_test, predictions, pos_label=1))"
       ],
       "metadata": {
-        "id": "9fyh8mwYD-Nj",
-        "outputId": "a1259b26-f161-4c4d-da93-732e6f6fd35a",
         "colab": {
           "base_uri": "https://localhost:8080/"
-        }
+        },
+        "id": "9fyh8mwYD-Nj",
+        "outputId": "d2cf29d9-1dbb-4802-e6ae-88387fd8ff74"
       },
-      "execution_count": 62,
+      "execution_count": 119,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stdout",
           "text": [
-            "Accuracy : 0.7886178861788617\n",
-            "Precision : 0.7596153846153846\n",
-            "Recall : 0.9875\n",
-            "F1 Score : 0.8586956521739131\n"
+            "Accuracy : 0.7804878048780488\n",
+            "Precision : 0.7572815533980582\n",
+            "Recall : 0.975\n",
+            "F1 Score : 0.8524590163934426\n"
           ]
         }
       ]
@@ -4003,7 +3994,7 @@
       "metadata": {
         "id": "6ZKnqc-vEQhP"
       },
-      "execution_count": null,
+      "execution_count": 119,
       "outputs": []
     }
   ],
