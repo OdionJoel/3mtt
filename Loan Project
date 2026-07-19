@@ -21,7 +21,7 @@
       "metadata": {
         "id": "lu756WW0csfE"
       },
-      "execution_count": 6,
+      "execution_count": 2,
       "outputs": []
     },
     {
@@ -33,7 +33,7 @@
       "metadata": {
         "id": "6g5AKqk4csWK"
       },
-      "execution_count": 7,
+      "execution_count": 3,
       "outputs": []
     },
     {
@@ -51,9 +51,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "_6guq2ZkcsMq",
-        "outputId": "dda362fd-a99f-430d-e195-c1a8e16b91ed"
+        "outputId": "7dfc1c20-6700-4b99-ca42-5d88dba00054"
       },
-      "execution_count": 36,
+      "execution_count": 4,
       "outputs": [
         {
           "output_type": "stream",
@@ -66,7 +66,7 @@
           "output_type": "stream",
           "name": "stderr",
           "text": [
-            "100%|██████████| 7.83k/7.83k [00:00<00:00, 9.27MB/s]"
+            "100%|██████████| 7.83k/7.83k [00:00<00:00, 9.39MB/s]"
           ]
         },
         {
@@ -98,9 +98,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "x-aLitBwdXhR",
-        "outputId": "91fb22bd-fa24-4591-cae2-91b5642869c6"
+        "outputId": "64fc6c78-91c8-473e-8c62-264b256c3f17"
       },
-      "execution_count": 37,
+      "execution_count": 5,
       "outputs": [
         {
           "output_type": "stream",
@@ -126,9 +126,9 @@
           "height": 206
         },
         "id": "AMKWUuzqd4y7",
-        "outputId": "ac898ab6-8676-4c8d-b1fe-ca68f67ca52c"
+        "outputId": "62464927-ea37-48e6-b31f-9bc9db2a2888"
       },
-      "execution_count": 39,
+      "execution_count": 6,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -157,7 +157,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-97fe4a84-e972-457a-967c-bc7b0a2f4829\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-19c24869-23f0-46ae-8e6f-554e073341f3\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -278,7 +278,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-97fe4a84-e972-457a-967c-bc7b0a2f4829')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-19c24869-23f0-46ae-8e6f-554e073341f3')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -330,12 +330,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-97fe4a84-e972-457a-967c-bc7b0a2f4829 button.colab-df-convert');\n",
+              "        document.querySelector('#df-19c24869-23f0-46ae-8e6f-554e073341f3 button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-97fe4a84-e972-457a-967c-bc7b0a2f4829');\n",
+              "        const element = document.querySelector('#df-19c24869-23f0-46ae-8e6f-554e073341f3');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -365,7 +365,7 @@
             }
           },
           "metadata": {},
-          "execution_count": 39
+          "execution_count": 6
         }
       ]
     },
@@ -379,9 +379,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "LykBZwRdd5fp",
-        "outputId": "8778668a-dab0-4d4f-e0cb-21253bc33160"
+        "outputId": "9c84dbe1-6bbe-46d0-baf6-b4fd38555d84"
       },
-      "execution_count": 40,
+      "execution_count": 7,
       "outputs": [
         {
           "output_type": "stream",
@@ -422,9 +422,9 @@
           "height": 300
         },
         "id": "Q5rYArdthei6",
-        "outputId": "a5d49b30-f259-49d5-82c1-7c0c3e7de52a"
+        "outputId": "fa776744-6d90-4a79-8dee-c235e695eb42"
       },
-      "execution_count": 41,
+      "execution_count": 8,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -452,7 +452,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-99401dc7-5fe1-4254-a6bd-5795f4b6b75d\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-755f2dc8-f2a3-4ef9-9110-2bc0d822f777\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -549,7 +549,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-99401dc7-5fe1-4254-a6bd-5795f4b6b75d')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-755f2dc8-f2a3-4ef9-9110-2bc0d822f777')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -601,12 +601,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-99401dc7-5fe1-4254-a6bd-5795f4b6b75d button.colab-df-convert');\n",
+              "        document.querySelector('#df-755f2dc8-f2a3-4ef9-9110-2bc0d822f777 button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-99401dc7-5fe1-4254-a6bd-5795f4b6b75d');\n",
+              "        const element = document.querySelector('#df-755f2dc8-f2a3-4ef9-9110-2bc0d822f777');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -635,7 +635,7 @@
             }
           },
           "metadata": {},
-          "execution_count": 41
+          "execution_count": 8
         }
       ]
     },
@@ -650,9 +650,9 @@
           "height": 175
         },
         "id": "bSC8bjcBh1M-",
-        "outputId": "72d96f1c-db99-4fa3-a182-440151b90992"
+        "outputId": "5b7485e1-d045-48cd-cd3e-e3d14819f53e"
       },
-      "execution_count": 42,
+      "execution_count": 9,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -672,7 +672,7 @@
             ],
             "text/html": [
               "\n",
-              "  <div id=\"df-fe0135e9-0a0b-4db2-a183-b10a410196f5\" class=\"colab-df-container\">\n",
+              "  <div id=\"df-adb4a8a2-578a-403a-afad-2650227296e2\" class=\"colab-df-container\">\n",
               "    <div>\n",
               "<style scoped>\n",
               "    .dataframe tbody tr th:only-of-type {\n",
@@ -752,7 +752,7 @@
               "    <div class=\"colab-df-buttons\">\n",
               "\n",
               "  <div class=\"colab-df-container\">\n",
-              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-fe0135e9-0a0b-4db2-a183-b10a410196f5')\"\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-adb4a8a2-578a-403a-afad-2650227296e2')\"\n",
               "            title=\"Convert this dataframe to an interactive table.\"\n",
               "            style=\"display:none;\">\n",
               "\n",
@@ -804,12 +804,12 @@
               "\n",
               "    <script>\n",
               "      const buttonEl =\n",
-              "        document.querySelector('#df-fe0135e9-0a0b-4db2-a183-b10a410196f5 button.colab-df-convert');\n",
+              "        document.querySelector('#df-adb4a8a2-578a-403a-afad-2650227296e2 button.colab-df-convert');\n",
               "      buttonEl.style.display =\n",
               "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
               "\n",
               "      async function convertToInteractive(key) {\n",
-              "        const element = document.querySelector('#df-fe0135e9-0a0b-4db2-a183-b10a410196f5');\n",
+              "        const element = document.querySelector('#df-adb4a8a2-578a-403a-afad-2650227296e2');\n",
               "        const dataTable =\n",
               "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
               "                                                    [key], {});\n",
@@ -838,7 +838,7 @@
             }
           },
           "metadata": {},
-          "execution_count": 42
+          "execution_count": 9
         }
       ]
     },
@@ -853,9 +853,9 @@
           "height": 492
         },
         "id": "hPojL-i9iRwA",
-        "outputId": "2d32dd2e-5065-4bd8-8a73-1fa57abb1564"
+        "outputId": "70791d87-0f22-4902-c316-02d74f265832"
       },
-      "execution_count": 50,
+      "execution_count": 10,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -957,7 +957,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 50
+          "execution_count": 10
         }
       ]
     },
@@ -971,9 +971,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "heb3ghuvi4T3",
-        "outputId": "4bc98e62-92e8-4f9c-fc5c-09667e18c4ad"
+        "outputId": "eaa1e367-64a5-4613-9173-028dcfd58414"
       },
-      "execution_count": 44,
+      "execution_count": 11,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -983,7 +983,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 44
+          "execution_count": 11
         }
       ]
     },
@@ -997,9 +997,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "iiqsvSl9jzFf",
-        "outputId": "107817b9-09a6-4bd0-f80f-35b0d04fa110"
+        "outputId": "3267c3ba-153c-43d0-ce68-cd562e078b39"
       },
-      "execution_count": 45,
+      "execution_count": 12,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1009,7 +1009,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 45
+          "execution_count": 12
         }
       ]
     },
@@ -1052,9 +1052,9 @@
           "height": 1000
         },
         "id": "lVuPhIdulhtr",
-        "outputId": "2cafbf70-f6a1-4e80-a5fa-25c36f3a761a"
+        "outputId": "3079ae7a-235b-44ca-8744-0cf510394d84"
       },
-      "execution_count": 51,
+      "execution_count": 13,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1082,9 +1082,9 @@
           "height": 472
         },
         "id": "72ygcuHvxqcK",
-        "outputId": "bf22e3a3-2a30-45af-f077-f4f93f765dbd"
+        "outputId": "867eac80-8d99-4b95-eeb3-15b38858b89b"
       },
-      "execution_count": 52,
+      "execution_count": 14,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1125,22 +1125,22 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "1Bd94P3U9avm",
-        "outputId": "9440630b-e16c-48af-b6b6-9e3d83c6c23a"
+        "outputId": "4d969b16-e05c-415a-a979-4ea65700047e"
       },
-      "execution_count": 53,
+      "execution_count": 15,
       "outputs": [
         {
           "output_type": "stream",
           "name": "stderr",
           "text": [
-            "/tmp/ipykernel_2158/1827835275.py:13: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.\n",
+            "/tmp/ipykernel_1718/1827835275.py:13: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.\n",
             "The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.\n",
             "\n",
             "For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.\n",
             "\n",
             "\n",
             "  df[col].fillna(df[col].mode()[0], inplace=True)\n",
-            "/tmp/ipykernel_2158/1827835275.py:18: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.\n",
+            "/tmp/ipykernel_1718/1827835275.py:18: FutureWarning: A value is trying to be set on a copy of a DataFrame or Series through chained assignment using an inplace method.\n",
             "The behavior will change in pandas 3.0. This inplace method will never work because the intermediate object on which we are setting values always behaves as a copy.\n",
             "\n",
             "For example, when doing 'df[col].method(value, inplace=True)', try using 'df.method({col: value}, inplace=True)' or df[col] = df[col].method(value) instead, to perform the operation inplace on the original object.\n",
@@ -1164,9 +1164,9 @@
           "height": 492
         },
         "id": "MSGJ1EIh-E6W",
-        "outputId": "8a25df82-eb32-4c38-8cb4-cede132e5b3a"
+        "outputId": "ab47ac51-7da5-46ec-89f1-90efee579ef5"
       },
-      "execution_count": 54,
+      "execution_count": 16,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1268,7 +1268,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 54
+          "execution_count": 16
         }
       ]
     },
@@ -1282,9 +1282,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "Tqx-xpv8-GsO",
-        "outputId": "5b333cd5-a65f-49cb-9f5b-745bb18db257"
+        "outputId": "ee397d60-c48a-4714-998f-39416c396fbf"
       },
-      "execution_count": 55,
+      "execution_count": 17,
       "outputs": [
         {
           "output_type": "execute_result",
@@ -1296,7 +1296,7 @@
             ]
           },
           "metadata": {},
-          "execution_count": 55
+          "execution_count": 17
         }
       ]
     },
@@ -1331,9 +1331,9 @@
           "height": 807
         },
         "id": "z_EVcNA6-4ut",
-        "outputId": "c959a11d-e32e-4df3-c783-c7333e1989fa"
+        "outputId": "fbaf0584-cf4e-4f4d-c163-0336a300bb09"
       },
-      "execution_count": 58,
+      "execution_count": 18,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1370,9 +1370,9 @@
           "base_uri": "https://localhost:8080/"
         },
         "id": "uApwknQJADGo",
-        "outputId": "c990d805-c7f7-4c28-e2a1-e2a79625de6b"
+        "outputId": "682dd4e7-2b2c-47e5-91c0-4bea3d88a8f6"
       },
-      "execution_count": 59,
+      "execution_count": 19,
       "outputs": [
         {
           "output_type": "stream",
@@ -1409,9 +1409,9 @@
           "height": 410
         },
         "id": "uAS_1ugLAWaB",
-        "outputId": "1ada38b0-246d-4dc1-c968-f9f6da0285b0"
+        "outputId": "db080d52-1781-403b-e8e3-256d75c837ca"
       },
-      "execution_count": 60,
+      "execution_count": 20,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1439,14 +1439,14 @@
         "plt.show()"
       ],
       "metadata": {
-        "id": "ljmPiF6XCEMo",
-        "outputId": "91e05889-bf5d-41c4-e41f-9b079a141e63",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 410
-        }
+        },
+        "id": "ljmPiF6XCEMo",
+        "outputId": "dd7eafc0-87f2-4ad1-d01a-30d468a5b4ef"
       },
-      "execution_count": 61,
+      "execution_count": 21,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1476,14 +1476,14 @@
         "plt.show()"
       ],
       "metadata": {
-        "id": "2G72b0zrCOIb",
-        "outputId": "2336ad97-2ddc-4ee6-ff50-515f12261027",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 410
-        }
+        },
+        "id": "2G72b0zrCOIb",
+        "outputId": "d1679bc5-d6d2-4c1b-edd8-1dde43f41f6f"
       },
-      "execution_count": 62,
+      "execution_count": 22,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1513,14 +1513,14 @@
         "plt.show()"
       ],
       "metadata": {
-        "id": "f7oNtCE1CRmr",
-        "outputId": "b706e629-9059-4997-a341-43523448465e",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 410
-        }
+        },
+        "id": "f7oNtCE1CRmr",
+        "outputId": "6a16eff5-4e7a-413e-ecd6-204f3869bb11"
       },
-      "execution_count": 63,
+      "execution_count": 23,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1550,14 +1550,14 @@
         "plt.show()"
       ],
       "metadata": {
-        "id": "RLKIdNP8CWkT",
-        "outputId": "73887b11-c0f1-4b9c-e562-d65cc7d846c4",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 410
-        }
+        },
+        "id": "RLKIdNP8CWkT",
+        "outputId": "217ad65a-b639-4c14-dc74-685a0063a2a6"
       },
-      "execution_count": 64,
+      "execution_count": 24,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1587,14 +1587,14 @@
         "plt.show()"
       ],
       "metadata": {
-        "id": "nSdxnKn-CeC6",
-        "outputId": "caded56e-571d-4000-ce43-36c427324c8d",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 410
-        }
+        },
+        "id": "nSdxnKn-CeC6",
+        "outputId": "ca7d773a-98f5-4427-e6fe-a6b77c1fe37c"
       },
-      "execution_count": 65,
+      "execution_count": 25,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1624,14 +1624,14 @@
         "plt.show()"
       ],
       "metadata": {
-        "id": "L2u_laVeCvaY",
-        "outputId": "c28e0cb2-52c9-4a25-bd36-4785edd0bc96",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 410
-        }
+        },
+        "id": "L2u_laVeCvaY",
+        "outputId": "c7cb009d-9ce7-468e-a709-911655138112"
       },
-      "execution_count": 66,
+      "execution_count": 26,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1661,14 +1661,14 @@
         "plt.show()"
       ],
       "metadata": {
-        "id": "uEux3qJOCzfB",
-        "outputId": "a6986d15-9923-4020-b132-c9f32f5ff662",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 410
-        }
+        },
+        "id": "uEux3qJOCzfB",
+        "outputId": "4cd731ab-7c84-40c9-b272-dc8a942f0f77"
       },
-      "execution_count": 67,
+      "execution_count": 27,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1698,14 +1698,14 @@
         "plt.show()"
       ],
       "metadata": {
-        "id": "Ac31S-gWC3Z8",
-        "outputId": "ac79b7ef-4050-4728-db12-4d3bb47f051f",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 410
-        }
+        },
+        "id": "Ac31S-gWC3Z8",
+        "outputId": "86730f6f-e6d1-4e6b-e02d-2f8e463ad0cf"
       },
-      "execution_count": 68,
+      "execution_count": 28,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1735,14 +1735,14 @@
         "plt.show()"
       ],
       "metadata": {
-        "id": "doOkW512C8Pj",
-        "outputId": "39f4bbee-9140-4afd-cab5-733b8c41ad34",
         "colab": {
           "base_uri": "https://localhost:8080/",
           "height": 589
-        }
+        },
+        "id": "doOkW512C8Pj",
+        "outputId": "084a031f-b675-4d96-da1c-c860d4d6b5e3"
       },
-      "execution_count": 69,
+      "execution_count": 29,
       "outputs": [
         {
           "output_type": "display_data",
@@ -1762,8 +1762,871 @@
       "metadata": {
         "id": "_zv_vKFCDCk3"
       },
-      "execution_count": null,
+      "execution_count": 29,
       "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "Categorical Encoding\n",
+        "        ↓\n",
+        "Feature Selection\n",
+        "        ↓\n",
+        "\n"
+      ],
+      "metadata": {
+        "id": "ONRJDKXXDkj_"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "df.select_dtypes(include=\"object\").columns"
+      ],
+      "metadata": {
+        "id": "dk64TGRLDpIr",
+        "outputId": "1169b82e-74ef-420b-9131-4b347eb40679",
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        }
+      },
+      "execution_count": 30,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "Index(['Loan_ID', 'Gender', 'Married', 'Dependents', 'Education',\n",
+              "       'Self_Employed', 'Property_Area', 'Loan_Status'],\n",
+              "      dtype='object')"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 30
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "df.drop(\"Loan_ID\", axis=1, inplace=True)"
+      ],
+      "metadata": {
+        "id": "lIgcIau5DrNM"
+      },
+      "execution_count": 31,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "from sklearn.preprocessing import LabelEncoder\n",
+        "\n",
+        "encoder = LabelEncoder()\n",
+        "\n",
+        "binary_cols = [\n",
+        "    \"Gender\",\n",
+        "    \"Married\",\n",
+        "    \"Education\",\n",
+        "    \"Self_Employed\",\n",
+        "    \"Loan_Status\"\n",
+        "]\n",
+        "\n",
+        "for col in binary_cols:\n",
+        "    df[col] = encoder.fit_transform(df[col])"
+      ],
+      "metadata": {
+        "id": "PoCjo-vsEAwA"
+      },
+      "execution_count": 32,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "df.head()\n"
+      ],
+      "metadata": {
+        "id": "Q1QyNPx_Edi0",
+        "outputId": "f0a6af91-6e19-4b72-fa01-a8fd84e59af2",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 206
+        }
+      },
+      "execution_count": 33,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "   Gender  Married Dependents  Education  Self_Employed  ApplicantIncome  \\\n",
+              "0       1        0          0          0              0             5849   \n",
+              "1       1        1          1          0              0             4583   \n",
+              "2       1        1          0          0              1             3000   \n",
+              "3       1        1          0          1              0             2583   \n",
+              "4       1        0          0          0              0             6000   \n",
+              "\n",
+              "   CoapplicantIncome  LoanAmount  Loan_Amount_Term  Credit_History  \\\n",
+              "0                0.0  146.412162             360.0             1.0   \n",
+              "1             1508.0  128.000000             360.0             1.0   \n",
+              "2                0.0   66.000000             360.0             1.0   \n",
+              "3             2358.0  120.000000             360.0             1.0   \n",
+              "4                0.0  141.000000             360.0             1.0   \n",
+              "\n",
+              "  Property_Area  Loan_Status  \n",
+              "0         Urban            1  \n",
+              "1         Rural            0  \n",
+              "2         Urban            1  \n",
+              "3         Urban            1  \n",
+              "4         Urban            1  "
+            ],
+            "text/html": [
+              "\n",
+              "  <div id=\"df-5706eef3-4e7c-4233-a2b8-92bb68916c91\" class=\"colab-df-container\">\n",
+              "    <div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>Gender</th>\n",
+              "      <th>Married</th>\n",
+              "      <th>Dependents</th>\n",
+              "      <th>Education</th>\n",
+              "      <th>Self_Employed</th>\n",
+              "      <th>ApplicantIncome</th>\n",
+              "      <th>CoapplicantIncome</th>\n",
+              "      <th>LoanAmount</th>\n",
+              "      <th>Loan_Amount_Term</th>\n",
+              "      <th>Credit_History</th>\n",
+              "      <th>Property_Area</th>\n",
+              "      <th>Loan_Status</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>1</td>\n",
+              "      <td>0</td>\n",
+              "      <td>0</td>\n",
+              "      <td>0</td>\n",
+              "      <td>0</td>\n",
+              "      <td>5849</td>\n",
+              "      <td>0.0</td>\n",
+              "      <td>146.412162</td>\n",
+              "      <td>360.0</td>\n",
+              "      <td>1.0</td>\n",
+              "      <td>Urban</td>\n",
+              "      <td>1</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1</th>\n",
+              "      <td>1</td>\n",
+              "      <td>1</td>\n",
+              "      <td>1</td>\n",
+              "      <td>0</td>\n",
+              "      <td>0</td>\n",
+              "      <td>4583</td>\n",
+              "      <td>1508.0</td>\n",
+              "      <td>128.000000</td>\n",
+              "      <td>360.0</td>\n",
+              "      <td>1.0</td>\n",
+              "      <td>Rural</td>\n",
+              "      <td>0</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2</th>\n",
+              "      <td>1</td>\n",
+              "      <td>1</td>\n",
+              "      <td>0</td>\n",
+              "      <td>0</td>\n",
+              "      <td>1</td>\n",
+              "      <td>3000</td>\n",
+              "      <td>0.0</td>\n",
+              "      <td>66.000000</td>\n",
+              "      <td>360.0</td>\n",
+              "      <td>1.0</td>\n",
+              "      <td>Urban</td>\n",
+              "      <td>1</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>3</th>\n",
+              "      <td>1</td>\n",
+              "      <td>1</td>\n",
+              "      <td>0</td>\n",
+              "      <td>1</td>\n",
+              "      <td>0</td>\n",
+              "      <td>2583</td>\n",
+              "      <td>2358.0</td>\n",
+              "      <td>120.000000</td>\n",
+              "      <td>360.0</td>\n",
+              "      <td>1.0</td>\n",
+              "      <td>Urban</td>\n",
+              "      <td>1</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>4</th>\n",
+              "      <td>1</td>\n",
+              "      <td>0</td>\n",
+              "      <td>0</td>\n",
+              "      <td>0</td>\n",
+              "      <td>0</td>\n",
+              "      <td>6000</td>\n",
+              "      <td>0.0</td>\n",
+              "      <td>141.000000</td>\n",
+              "      <td>360.0</td>\n",
+              "      <td>1.0</td>\n",
+              "      <td>Urban</td>\n",
+              "      <td>1</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>\n",
+              "    <div class=\"colab-df-buttons\">\n",
+              "\n",
+              "  <div class=\"colab-df-container\">\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-5706eef3-4e7c-4233-a2b8-92bb68916c91')\"\n",
+              "            title=\"Convert this dataframe to an interactive table.\"\n",
+              "            style=\"display:none;\">\n",
+              "\n",
+              "  <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\">\n",
+              "    <path d=\"M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z\"/>\n",
+              "  </svg>\n",
+              "    </button>\n",
+              "\n",
+              "  <style>\n",
+              "    .colab-df-container {\n",
+              "      display:flex;\n",
+              "      gap: 12px;\n",
+              "    }\n",
+              "\n",
+              "    .colab-df-convert {\n",
+              "      background-color: #E8F0FE;\n",
+              "      border: none;\n",
+              "      border-radius: 50%;\n",
+              "      cursor: pointer;\n",
+              "      display: none;\n",
+              "      fill: #1967D2;\n",
+              "      height: 32px;\n",
+              "      padding: 0 0 0 0;\n",
+              "      width: 32px;\n",
+              "    }\n",
+              "\n",
+              "    .colab-df-convert:hover {\n",
+              "      background-color: #E2EBFA;\n",
+              "      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);\n",
+              "      fill: #174EA6;\n",
+              "    }\n",
+              "\n",
+              "    .colab-df-buttons div {\n",
+              "      margin-bottom: 4px;\n",
+              "    }\n",
+              "\n",
+              "    [theme=dark] .colab-df-convert {\n",
+              "      background-color: #3B4455;\n",
+              "      fill: #D2E3FC;\n",
+              "    }\n",
+              "\n",
+              "    [theme=dark] .colab-df-convert:hover {\n",
+              "      background-color: #434B5C;\n",
+              "      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);\n",
+              "      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));\n",
+              "      fill: #FFFFFF;\n",
+              "    }\n",
+              "  </style>\n",
+              "\n",
+              "    <script>\n",
+              "      const buttonEl =\n",
+              "        document.querySelector('#df-5706eef3-4e7c-4233-a2b8-92bb68916c91 button.colab-df-convert');\n",
+              "      buttonEl.style.display =\n",
+              "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
+              "\n",
+              "      async function convertToInteractive(key) {\n",
+              "        const element = document.querySelector('#df-5706eef3-4e7c-4233-a2b8-92bb68916c91');\n",
+              "        const dataTable =\n",
+              "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
+              "                                                    [key], {});\n",
+              "        if (!dataTable) return;\n",
+              "\n",
+              "        const docLinkHtml = 'Like what you see? Visit the ' +\n",
+              "          '<a target=\"_blank\" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'\n",
+              "          + ' to learn more about interactive tables.';\n",
+              "        element.innerHTML = '';\n",
+              "        dataTable['output_type'] = 'display_data';\n",
+              "        await google.colab.output.renderOutput(dataTable, element);\n",
+              "        const docLink = document.createElement('div');\n",
+              "        docLink.innerHTML = docLinkHtml;\n",
+              "        element.appendChild(docLink);\n",
+              "      }\n",
+              "    </script>\n",
+              "  </div>\n",
+              "\n",
+              "\n",
+              "    </div>\n",
+              "  </div>\n"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "dataframe",
+              "variable_name": "df",
+              "summary": "{\n  \"name\": \"df\",\n  \"rows\": 614,\n  \"fields\": [\n    {\n      \"column\": \"Gender\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 0,\n        \"min\": 0,\n        \"max\": 1,\n        \"num_unique_values\": 2,\n        \"samples\": [\n          0,\n          1\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Married\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 0,\n        \"min\": 0,\n        \"max\": 1,\n        \"num_unique_values\": 2,\n        \"samples\": [\n          1,\n          0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Dependents\",\n      \"properties\": {\n        \"dtype\": \"category\",\n        \"num_unique_values\": 4,\n        \"samples\": [\n          \"1\",\n          \"3+\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Education\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 0,\n        \"min\": 0,\n        \"max\": 1,\n        \"num_unique_values\": 2,\n        \"samples\": [\n          1,\n          0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Self_Employed\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 0,\n        \"min\": 0,\n        \"max\": 1,\n        \"num_unique_values\": 2,\n        \"samples\": [\n          1,\n          0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"ApplicantIncome\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 6109,\n        \"min\": 150,\n        \"max\": 81000,\n        \"num_unique_values\": 505,\n        \"samples\": [\n          8333,\n          4342\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"CoapplicantIncome\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 2926.2483692241917,\n        \"min\": 0.0,\n        \"max\": 41667.0,\n        \"num_unique_values\": 287,\n        \"samples\": [\n          1840.0,\n          2042.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"LoanAmount\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 84.0374676831965,\n        \"min\": 9.0,\n        \"max\": 700.0,\n        \"num_unique_values\": 204,\n        \"samples\": [\n          125.0,\n          349.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Loan_Amount_Term\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 64.42862906767301,\n        \"min\": 12.0,\n        \"max\": 480.0,\n        \"num_unique_values\": 10,\n        \"samples\": [\n          84.0,\n          120.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Credit_History\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 0.3523386063583013,\n        \"min\": 0.0,\n        \"max\": 1.0,\n        \"num_unique_values\": 2,\n        \"samples\": [\n          0.0,\n          1.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Property_Area\",\n      \"properties\": {\n        \"dtype\": \"category\",\n        \"num_unique_values\": 3,\n        \"samples\": [\n          \"Urban\",\n          \"Rural\"\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Loan_Status\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 0,\n        \"min\": 0,\n        \"max\": 1,\n        \"num_unique_values\": 2,\n        \"samples\": [\n          0,\n          1\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    }\n  ]\n}"
+            }
+          },
+          "metadata": {},
+          "execution_count": 33
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "df = pd.get_dummies(\n",
+        "    df,\n",
+        "    columns=[\"Property_Area\"],\n",
+        "    drop_first=True\n",
+        ")"
+      ],
+      "metadata": {
+        "id": "hcoD2FetEgLo"
+      },
+      "execution_count": 34,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "df.head()"
+      ],
+      "metadata": {
+        "id": "-EAokYDbEoBV",
+        "outputId": "e169f866-f557-4548-892c-8aaaf28d2e13",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 206
+        }
+      },
+      "execution_count": 37,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "   Gender  Married  Dependents  Education  Self_Employed  ApplicantIncome  \\\n",
+              "0       1        0           0          0              0             5849   \n",
+              "1       1        1           1          0              0             4583   \n",
+              "2       1        1           0          0              1             3000   \n",
+              "3       1        1           0          1              0             2583   \n",
+              "4       1        0           0          0              0             6000   \n",
+              "\n",
+              "   CoapplicantIncome  LoanAmount  Loan_Amount_Term  Credit_History  \\\n",
+              "0                0.0  146.412162             360.0             1.0   \n",
+              "1             1508.0  128.000000             360.0             1.0   \n",
+              "2                0.0   66.000000             360.0             1.0   \n",
+              "3             2358.0  120.000000             360.0             1.0   \n",
+              "4                0.0  141.000000             360.0             1.0   \n",
+              "\n",
+              "   Loan_Status  Property_Area_Semiurban  Property_Area_Urban  \n",
+              "0            1                    False                 True  \n",
+              "1            0                    False                False  \n",
+              "2            1                    False                 True  \n",
+              "3            1                    False                 True  \n",
+              "4            1                    False                 True  "
+            ],
+            "text/html": [
+              "\n",
+              "  <div id=\"df-7a65d9f8-53e4-43a1-9753-10b061ea93a6\" class=\"colab-df-container\">\n",
+              "    <div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>Gender</th>\n",
+              "      <th>Married</th>\n",
+              "      <th>Dependents</th>\n",
+              "      <th>Education</th>\n",
+              "      <th>Self_Employed</th>\n",
+              "      <th>ApplicantIncome</th>\n",
+              "      <th>CoapplicantIncome</th>\n",
+              "      <th>LoanAmount</th>\n",
+              "      <th>Loan_Amount_Term</th>\n",
+              "      <th>Credit_History</th>\n",
+              "      <th>Loan_Status</th>\n",
+              "      <th>Property_Area_Semiurban</th>\n",
+              "      <th>Property_Area_Urban</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>1</td>\n",
+              "      <td>0</td>\n",
+              "      <td>0</td>\n",
+              "      <td>0</td>\n",
+              "      <td>0</td>\n",
+              "      <td>5849</td>\n",
+              "      <td>0.0</td>\n",
+              "      <td>146.412162</td>\n",
+              "      <td>360.0</td>\n",
+              "      <td>1.0</td>\n",
+              "      <td>1</td>\n",
+              "      <td>False</td>\n",
+              "      <td>True</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1</th>\n",
+              "      <td>1</td>\n",
+              "      <td>1</td>\n",
+              "      <td>1</td>\n",
+              "      <td>0</td>\n",
+              "      <td>0</td>\n",
+              "      <td>4583</td>\n",
+              "      <td>1508.0</td>\n",
+              "      <td>128.000000</td>\n",
+              "      <td>360.0</td>\n",
+              "      <td>1.0</td>\n",
+              "      <td>0</td>\n",
+              "      <td>False</td>\n",
+              "      <td>False</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2</th>\n",
+              "      <td>1</td>\n",
+              "      <td>1</td>\n",
+              "      <td>0</td>\n",
+              "      <td>0</td>\n",
+              "      <td>1</td>\n",
+              "      <td>3000</td>\n",
+              "      <td>0.0</td>\n",
+              "      <td>66.000000</td>\n",
+              "      <td>360.0</td>\n",
+              "      <td>1.0</td>\n",
+              "      <td>1</td>\n",
+              "      <td>False</td>\n",
+              "      <td>True</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>3</th>\n",
+              "      <td>1</td>\n",
+              "      <td>1</td>\n",
+              "      <td>0</td>\n",
+              "      <td>1</td>\n",
+              "      <td>0</td>\n",
+              "      <td>2583</td>\n",
+              "      <td>2358.0</td>\n",
+              "      <td>120.000000</td>\n",
+              "      <td>360.0</td>\n",
+              "      <td>1.0</td>\n",
+              "      <td>1</td>\n",
+              "      <td>False</td>\n",
+              "      <td>True</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>4</th>\n",
+              "      <td>1</td>\n",
+              "      <td>0</td>\n",
+              "      <td>0</td>\n",
+              "      <td>0</td>\n",
+              "      <td>0</td>\n",
+              "      <td>6000</td>\n",
+              "      <td>0.0</td>\n",
+              "      <td>141.000000</td>\n",
+              "      <td>360.0</td>\n",
+              "      <td>1.0</td>\n",
+              "      <td>1</td>\n",
+              "      <td>False</td>\n",
+              "      <td>True</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>\n",
+              "    <div class=\"colab-df-buttons\">\n",
+              "\n",
+              "  <div class=\"colab-df-container\">\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-7a65d9f8-53e4-43a1-9753-10b061ea93a6')\"\n",
+              "            title=\"Convert this dataframe to an interactive table.\"\n",
+              "            style=\"display:none;\">\n",
+              "\n",
+              "  <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\">\n",
+              "    <path d=\"M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z\"/>\n",
+              "  </svg>\n",
+              "    </button>\n",
+              "\n",
+              "  <style>\n",
+              "    .colab-df-container {\n",
+              "      display:flex;\n",
+              "      gap: 12px;\n",
+              "    }\n",
+              "\n",
+              "    .colab-df-convert {\n",
+              "      background-color: #E8F0FE;\n",
+              "      border: none;\n",
+              "      border-radius: 50%;\n",
+              "      cursor: pointer;\n",
+              "      display: none;\n",
+              "      fill: #1967D2;\n",
+              "      height: 32px;\n",
+              "      padding: 0 0 0 0;\n",
+              "      width: 32px;\n",
+              "    }\n",
+              "\n",
+              "    .colab-df-convert:hover {\n",
+              "      background-color: #E2EBFA;\n",
+              "      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);\n",
+              "      fill: #174EA6;\n",
+              "    }\n",
+              "\n",
+              "    .colab-df-buttons div {\n",
+              "      margin-bottom: 4px;\n",
+              "    }\n",
+              "\n",
+              "    [theme=dark] .colab-df-convert {\n",
+              "      background-color: #3B4455;\n",
+              "      fill: #D2E3FC;\n",
+              "    }\n",
+              "\n",
+              "    [theme=dark] .colab-df-convert:hover {\n",
+              "      background-color: #434B5C;\n",
+              "      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);\n",
+              "      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));\n",
+              "      fill: #FFFFFF;\n",
+              "    }\n",
+              "  </style>\n",
+              "\n",
+              "    <script>\n",
+              "      const buttonEl =\n",
+              "        document.querySelector('#df-7a65d9f8-53e4-43a1-9753-10b061ea93a6 button.colab-df-convert');\n",
+              "      buttonEl.style.display =\n",
+              "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
+              "\n",
+              "      async function convertToInteractive(key) {\n",
+              "        const element = document.querySelector('#df-7a65d9f8-53e4-43a1-9753-10b061ea93a6');\n",
+              "        const dataTable =\n",
+              "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
+              "                                                    [key], {});\n",
+              "        if (!dataTable) return;\n",
+              "\n",
+              "        const docLinkHtml = 'Like what you see? Visit the ' +\n",
+              "          '<a target=\"_blank\" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'\n",
+              "          + ' to learn more about interactive tables.';\n",
+              "        element.innerHTML = '';\n",
+              "        dataTable['output_type'] = 'display_data';\n",
+              "        await google.colab.output.renderOutput(dataTable, element);\n",
+              "        const docLink = document.createElement('div');\n",
+              "        docLink.innerHTML = docLinkHtml;\n",
+              "        element.appendChild(docLink);\n",
+              "      }\n",
+              "    </script>\n",
+              "  </div>\n",
+              "\n",
+              "\n",
+              "    </div>\n",
+              "  </div>\n"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "dataframe",
+              "variable_name": "df",
+              "summary": "{\n  \"name\": \"df\",\n  \"rows\": 614,\n  \"fields\": [\n    {\n      \"column\": \"Gender\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 0,\n        \"min\": 0,\n        \"max\": 1,\n        \"num_unique_values\": 2,\n        \"samples\": [\n          0,\n          1\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Married\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 0,\n        \"min\": 0,\n        \"max\": 1,\n        \"num_unique_values\": 2,\n        \"samples\": [\n          1,\n          0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Dependents\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 1,\n        \"min\": 0,\n        \"max\": 3,\n        \"num_unique_values\": 4,\n        \"samples\": [\n          1,\n          3\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Education\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 0,\n        \"min\": 0,\n        \"max\": 1,\n        \"num_unique_values\": 2,\n        \"samples\": [\n          1,\n          0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Self_Employed\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 0,\n        \"min\": 0,\n        \"max\": 1,\n        \"num_unique_values\": 2,\n        \"samples\": [\n          1,\n          0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"ApplicantIncome\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 6109,\n        \"min\": 150,\n        \"max\": 81000,\n        \"num_unique_values\": 505,\n        \"samples\": [\n          8333,\n          4342\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"CoapplicantIncome\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 2926.2483692241917,\n        \"min\": 0.0,\n        \"max\": 41667.0,\n        \"num_unique_values\": 287,\n        \"samples\": [\n          1840.0,\n          2042.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"LoanAmount\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 84.0374676831965,\n        \"min\": 9.0,\n        \"max\": 700.0,\n        \"num_unique_values\": 204,\n        \"samples\": [\n          125.0,\n          349.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Loan_Amount_Term\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 64.42862906767301,\n        \"min\": 12.0,\n        \"max\": 480.0,\n        \"num_unique_values\": 10,\n        \"samples\": [\n          84.0,\n          120.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Credit_History\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 0.3523386063583013,\n        \"min\": 0.0,\n        \"max\": 1.0,\n        \"num_unique_values\": 2,\n        \"samples\": [\n          0.0,\n          1.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Loan_Status\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 0,\n        \"min\": 0,\n        \"max\": 1,\n        \"num_unique_values\": 2,\n        \"samples\": [\n          0,\n          1\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Property_Area_Semiurban\",\n      \"properties\": {\n        \"dtype\": \"boolean\",\n        \"num_unique_values\": 2,\n        \"samples\": [\n          true,\n          false\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Property_Area_Urban\",\n      \"properties\": {\n        \"dtype\": \"boolean\",\n        \"num_unique_values\": 2,\n        \"samples\": [\n          false,\n          true\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    }\n  ]\n}"
+            }
+          },
+          "metadata": {},
+          "execution_count": 37
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "df[\"Dependents\"] = df[\"Dependents\"].replace(\n",
+        "    \"3+\",\n",
+        "    3\n",
+        ")\n",
+        "\n",
+        "df[\"Dependents\"] = df[\"Dependents\"].astype(int)"
+      ],
+      "metadata": {
+        "id": "R9wBzByjEqPm"
+      },
+      "execution_count": 36,
+      "outputs": []
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "df.head()"
+      ],
+      "metadata": {
+        "id": "POG9C_XxvbiT",
+        "outputId": "7f8ef065-b09e-481c-ea25-b60069cbf45a",
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 206
+        }
+      },
+      "execution_count": 38,
+      "outputs": [
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "   Gender  Married  Dependents  Education  Self_Employed  ApplicantIncome  \\\n",
+              "0       1        0           0          0              0             5849   \n",
+              "1       1        1           1          0              0             4583   \n",
+              "2       1        1           0          0              1             3000   \n",
+              "3       1        1           0          1              0             2583   \n",
+              "4       1        0           0          0              0             6000   \n",
+              "\n",
+              "   CoapplicantIncome  LoanAmount  Loan_Amount_Term  Credit_History  \\\n",
+              "0                0.0  146.412162             360.0             1.0   \n",
+              "1             1508.0  128.000000             360.0             1.0   \n",
+              "2                0.0   66.000000             360.0             1.0   \n",
+              "3             2358.0  120.000000             360.0             1.0   \n",
+              "4                0.0  141.000000             360.0             1.0   \n",
+              "\n",
+              "   Loan_Status  Property_Area_Semiurban  Property_Area_Urban  \n",
+              "0            1                    False                 True  \n",
+              "1            0                    False                False  \n",
+              "2            1                    False                 True  \n",
+              "3            1                    False                 True  \n",
+              "4            1                    False                 True  "
+            ],
+            "text/html": [
+              "\n",
+              "  <div id=\"df-f6e93b78-4c8c-44cf-a6c8-b541057d6cd4\" class=\"colab-df-container\">\n",
+              "    <div>\n",
+              "<style scoped>\n",
+              "    .dataframe tbody tr th:only-of-type {\n",
+              "        vertical-align: middle;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe tbody tr th {\n",
+              "        vertical-align: top;\n",
+              "    }\n",
+              "\n",
+              "    .dataframe thead th {\n",
+              "        text-align: right;\n",
+              "    }\n",
+              "</style>\n",
+              "<table border=\"1\" class=\"dataframe\">\n",
+              "  <thead>\n",
+              "    <tr style=\"text-align: right;\">\n",
+              "      <th></th>\n",
+              "      <th>Gender</th>\n",
+              "      <th>Married</th>\n",
+              "      <th>Dependents</th>\n",
+              "      <th>Education</th>\n",
+              "      <th>Self_Employed</th>\n",
+              "      <th>ApplicantIncome</th>\n",
+              "      <th>CoapplicantIncome</th>\n",
+              "      <th>LoanAmount</th>\n",
+              "      <th>Loan_Amount_Term</th>\n",
+              "      <th>Credit_History</th>\n",
+              "      <th>Loan_Status</th>\n",
+              "      <th>Property_Area_Semiurban</th>\n",
+              "      <th>Property_Area_Urban</th>\n",
+              "    </tr>\n",
+              "  </thead>\n",
+              "  <tbody>\n",
+              "    <tr>\n",
+              "      <th>0</th>\n",
+              "      <td>1</td>\n",
+              "      <td>0</td>\n",
+              "      <td>0</td>\n",
+              "      <td>0</td>\n",
+              "      <td>0</td>\n",
+              "      <td>5849</td>\n",
+              "      <td>0.0</td>\n",
+              "      <td>146.412162</td>\n",
+              "      <td>360.0</td>\n",
+              "      <td>1.0</td>\n",
+              "      <td>1</td>\n",
+              "      <td>False</td>\n",
+              "      <td>True</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>1</th>\n",
+              "      <td>1</td>\n",
+              "      <td>1</td>\n",
+              "      <td>1</td>\n",
+              "      <td>0</td>\n",
+              "      <td>0</td>\n",
+              "      <td>4583</td>\n",
+              "      <td>1508.0</td>\n",
+              "      <td>128.000000</td>\n",
+              "      <td>360.0</td>\n",
+              "      <td>1.0</td>\n",
+              "      <td>0</td>\n",
+              "      <td>False</td>\n",
+              "      <td>False</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>2</th>\n",
+              "      <td>1</td>\n",
+              "      <td>1</td>\n",
+              "      <td>0</td>\n",
+              "      <td>0</td>\n",
+              "      <td>1</td>\n",
+              "      <td>3000</td>\n",
+              "      <td>0.0</td>\n",
+              "      <td>66.000000</td>\n",
+              "      <td>360.0</td>\n",
+              "      <td>1.0</td>\n",
+              "      <td>1</td>\n",
+              "      <td>False</td>\n",
+              "      <td>True</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>3</th>\n",
+              "      <td>1</td>\n",
+              "      <td>1</td>\n",
+              "      <td>0</td>\n",
+              "      <td>1</td>\n",
+              "      <td>0</td>\n",
+              "      <td>2583</td>\n",
+              "      <td>2358.0</td>\n",
+              "      <td>120.000000</td>\n",
+              "      <td>360.0</td>\n",
+              "      <td>1.0</td>\n",
+              "      <td>1</td>\n",
+              "      <td>False</td>\n",
+              "      <td>True</td>\n",
+              "    </tr>\n",
+              "    <tr>\n",
+              "      <th>4</th>\n",
+              "      <td>1</td>\n",
+              "      <td>0</td>\n",
+              "      <td>0</td>\n",
+              "      <td>0</td>\n",
+              "      <td>0</td>\n",
+              "      <td>6000</td>\n",
+              "      <td>0.0</td>\n",
+              "      <td>141.000000</td>\n",
+              "      <td>360.0</td>\n",
+              "      <td>1.0</td>\n",
+              "      <td>1</td>\n",
+              "      <td>False</td>\n",
+              "      <td>True</td>\n",
+              "    </tr>\n",
+              "  </tbody>\n",
+              "</table>\n",
+              "</div>\n",
+              "    <div class=\"colab-df-buttons\">\n",
+              "\n",
+              "  <div class=\"colab-df-container\">\n",
+              "    <button class=\"colab-df-convert\" onclick=\"convertToInteractive('df-f6e93b78-4c8c-44cf-a6c8-b541057d6cd4')\"\n",
+              "            title=\"Convert this dataframe to an interactive table.\"\n",
+              "            style=\"display:none;\">\n",
+              "\n",
+              "  <svg xmlns=\"http://www.w3.org/2000/svg\" height=\"24px\" viewBox=\"0 -960 960 960\">\n",
+              "    <path d=\"M120-120v-720h720v720H120Zm60-500h600v-160H180v160Zm220 220h160v-160H400v160Zm0 220h160v-160H400v160ZM180-400h160v-160H180v160Zm440 0h160v-160H620v160ZM180-180h160v-160H180v160Zm440 0h160v-160H620v160Z\"/>\n",
+              "  </svg>\n",
+              "    </button>\n",
+              "\n",
+              "  <style>\n",
+              "    .colab-df-container {\n",
+              "      display:flex;\n",
+              "      gap: 12px;\n",
+              "    }\n",
+              "\n",
+              "    .colab-df-convert {\n",
+              "      background-color: #E8F0FE;\n",
+              "      border: none;\n",
+              "      border-radius: 50%;\n",
+              "      cursor: pointer;\n",
+              "      display: none;\n",
+              "      fill: #1967D2;\n",
+              "      height: 32px;\n",
+              "      padding: 0 0 0 0;\n",
+              "      width: 32px;\n",
+              "    }\n",
+              "\n",
+              "    .colab-df-convert:hover {\n",
+              "      background-color: #E2EBFA;\n",
+              "      box-shadow: 0px 1px 2px rgba(60, 64, 67, 0.3), 0px 1px 3px 1px rgba(60, 64, 67, 0.15);\n",
+              "      fill: #174EA6;\n",
+              "    }\n",
+              "\n",
+              "    .colab-df-buttons div {\n",
+              "      margin-bottom: 4px;\n",
+              "    }\n",
+              "\n",
+              "    [theme=dark] .colab-df-convert {\n",
+              "      background-color: #3B4455;\n",
+              "      fill: #D2E3FC;\n",
+              "    }\n",
+              "\n",
+              "    [theme=dark] .colab-df-convert:hover {\n",
+              "      background-color: #434B5C;\n",
+              "      box-shadow: 0px 1px 3px 1px rgba(0, 0, 0, 0.15);\n",
+              "      filter: drop-shadow(0px 1px 2px rgba(0, 0, 0, 0.3));\n",
+              "      fill: #FFFFFF;\n",
+              "    }\n",
+              "  </style>\n",
+              "\n",
+              "    <script>\n",
+              "      const buttonEl =\n",
+              "        document.querySelector('#df-f6e93b78-4c8c-44cf-a6c8-b541057d6cd4 button.colab-df-convert');\n",
+              "      buttonEl.style.display =\n",
+              "        google.colab.kernel.accessAllowed ? 'block' : 'none';\n",
+              "\n",
+              "      async function convertToInteractive(key) {\n",
+              "        const element = document.querySelector('#df-f6e93b78-4c8c-44cf-a6c8-b541057d6cd4');\n",
+              "        const dataTable =\n",
+              "          await google.colab.kernel.invokeFunction('convertToInteractive',\n",
+              "                                                    [key], {});\n",
+              "        if (!dataTable) return;\n",
+              "\n",
+              "        const docLinkHtml = 'Like what you see? Visit the ' +\n",
+              "          '<a target=\"_blank\" href=https://colab.research.google.com/notebooks/data_table.ipynb>data table notebook</a>'\n",
+              "          + ' to learn more about interactive tables.';\n",
+              "        element.innerHTML = '';\n",
+              "        dataTable['output_type'] = 'display_data';\n",
+              "        await google.colab.output.renderOutput(dataTable, element);\n",
+              "        const docLink = document.createElement('div');\n",
+              "        docLink.innerHTML = docLinkHtml;\n",
+              "        element.appendChild(docLink);\n",
+              "      }\n",
+              "    </script>\n",
+              "  </div>\n",
+              "\n",
+              "\n",
+              "    </div>\n",
+              "  </div>\n"
+            ],
+            "application/vnd.google.colaboratory.intrinsic+json": {
+              "type": "dataframe",
+              "variable_name": "df",
+              "summary": "{\n  \"name\": \"df\",\n  \"rows\": 614,\n  \"fields\": [\n    {\n      \"column\": \"Gender\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 0,\n        \"min\": 0,\n        \"max\": 1,\n        \"num_unique_values\": 2,\n        \"samples\": [\n          0,\n          1\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Married\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 0,\n        \"min\": 0,\n        \"max\": 1,\n        \"num_unique_values\": 2,\n        \"samples\": [\n          1,\n          0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Dependents\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 1,\n        \"min\": 0,\n        \"max\": 3,\n        \"num_unique_values\": 4,\n        \"samples\": [\n          1,\n          3\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Education\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 0,\n        \"min\": 0,\n        \"max\": 1,\n        \"num_unique_values\": 2,\n        \"samples\": [\n          1,\n          0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Self_Employed\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 0,\n        \"min\": 0,\n        \"max\": 1,\n        \"num_unique_values\": 2,\n        \"samples\": [\n          1,\n          0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"ApplicantIncome\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 6109,\n        \"min\": 150,\n        \"max\": 81000,\n        \"num_unique_values\": 505,\n        \"samples\": [\n          8333,\n          4342\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"CoapplicantIncome\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 2926.2483692241917,\n        \"min\": 0.0,\n        \"max\": 41667.0,\n        \"num_unique_values\": 287,\n        \"samples\": [\n          1840.0,\n          2042.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"LoanAmount\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 84.0374676831965,\n        \"min\": 9.0,\n        \"max\": 700.0,\n        \"num_unique_values\": 204,\n        \"samples\": [\n          125.0,\n          349.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Loan_Amount_Term\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 64.42862906767301,\n        \"min\": 12.0,\n        \"max\": 480.0,\n        \"num_unique_values\": 10,\n        \"samples\": [\n          84.0,\n          120.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Credit_History\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 0.3523386063583013,\n        \"min\": 0.0,\n        \"max\": 1.0,\n        \"num_unique_values\": 2,\n        \"samples\": [\n          0.0,\n          1.0\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Loan_Status\",\n      \"properties\": {\n        \"dtype\": \"number\",\n        \"std\": 0,\n        \"min\": 0,\n        \"max\": 1,\n        \"num_unique_values\": 2,\n        \"samples\": [\n          0,\n          1\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Property_Area_Semiurban\",\n      \"properties\": {\n        \"dtype\": \"boolean\",\n        \"num_unique_values\": 2,\n        \"samples\": [\n          true,\n          false\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    },\n    {\n      \"column\": \"Property_Area_Urban\",\n      \"properties\": {\n        \"dtype\": \"boolean\",\n        \"num_unique_values\": 2,\n        \"samples\": [\n          false,\n          true\n        ],\n        \"semantic_type\": \"\",\n        \"description\": \"\"\n      }\n    }\n  ]\n}"
+            }
+          },
+          "metadata": {},
+          "execution_count": 38
+        }
+      ]
     }
   ],
   "metadata": {
